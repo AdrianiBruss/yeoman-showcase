@@ -1,0 +1,1900 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.1
+4 verbose install where, deps [ '/Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman',
+4 verbose install   [ 'grunt',
+4 verbose install     'grunt-autoprefixer',
+4 verbose install     'grunt-bower-requirejs',
+4 verbose install     'grunt-concurrent',
+4 verbose install     'grunt-contrib-clean',
+4 verbose install     'grunt-contrib-compass',
+4 verbose install     'grunt-contrib-concat',
+4 verbose install     'grunt-contrib-connect',
+4 verbose install     'grunt-contrib-copy',
+4 verbose install     'grunt-contrib-cssmin',
+4 verbose install     'grunt-contrib-htmlmin',
+4 verbose install     'grunt-contrib-imagemin',
+4 verbose install     'grunt-contrib-jshint',
+4 verbose install     'grunt-contrib-uglify',
+4 verbose install     'grunt-contrib-watch',
+4 verbose install     'grunt-filerev',
+4 verbose install     'grunt-google-cdn',
+4 verbose install     'grunt-karma',
+4 verbose install     'grunt-newer',
+4 verbose install     'grunt-ng-annotate',
+4 verbose install     'grunt-requirejs',
+4 verbose install     'grunt-svgmin',
+4 verbose install     'grunt-text-replace',
+4 verbose install     'grunt-usemin',
+4 verbose install     'grunt-wiredep',
+4 verbose install     'jasmine-core',
+4 verbose install     'jshint-stylish',
+4 verbose install     'karma',
+4 verbose install     'karma-jasmine',
+4 verbose install     'karma-ng-html2js-preprocessor',
+4 verbose install     'karma-ng-scenario',
+4 verbose install     'karma-phantomjs-launcher',
+4 verbose install     'karma-requirejs',
+4 verbose install     'load-grunt-tasks',
+4 verbose install     'requirejs',
+4 verbose install     'time-grunt' ] ]
+5 verbose install where, peers [ '/Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman',
+5 verbose install   [] ]
+6 info preinstall yeoman@0.0.0
+7 silly cache add args [ 'grunt-contrib-connect@^0.9.0', null ]
+8 verbose cache add spec grunt-contrib-connect@^0.9.0
+9 silly cache add parsed spec { raw: 'grunt-contrib-connect@^0.9.0',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'grunt-contrib-connect',
+9 silly cache add   rawSpec: '^0.9.0',
+9 silly cache add   spec: '>=0.9.0 <0.10.0',
+9 silly cache add   type: 'range' }
+10 verbose addNamed grunt-contrib-connect@>=0.9.0 <0.10.0
+11 silly addNamed semver.valid null
+12 silly addNamed semver.validRange >=0.9.0 <0.10.0
+13 silly addNameRange { name: 'grunt-contrib-connect',
+13 silly addNameRange   range: '>=0.9.0 <0.10.0',
+13 silly addNameRange   hasData: false }
+14 silly mapToRegistry name grunt-contrib-connect
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-connect
+18 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-connect not in flight; fetching
+19 silly cache add args [ 'grunt-contrib-copy@^0.7.0', null ]
+20 verbose cache add spec grunt-contrib-copy@^0.7.0
+21 silly cache add parsed spec { raw: 'grunt-contrib-copy@^0.7.0',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'grunt-contrib-copy',
+21 silly cache add   rawSpec: '^0.7.0',
+21 silly cache add   spec: '>=0.7.0 <0.8.0',
+21 silly cache add   type: 'range' }
+22 verbose addNamed grunt-contrib-copy@>=0.7.0 <0.8.0
+23 silly addNamed semver.valid null
+24 silly addNamed semver.validRange >=0.7.0 <0.8.0
+25 silly addNameRange { name: 'grunt-contrib-copy',
+25 silly addNameRange   range: '>=0.7.0 <0.8.0',
+25 silly addNameRange   hasData: false }
+26 silly mapToRegistry name grunt-contrib-copy
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-copy
+30 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-copy not in flight; fetching
+31 silly cache add args [ 'grunt-contrib-cssmin@^0.10.0', null ]
+32 verbose cache add spec grunt-contrib-cssmin@^0.10.0
+33 silly cache add parsed spec { raw: 'grunt-contrib-cssmin@^0.10.0',
+33 silly cache add   scope: null,
+33 silly cache add   name: 'grunt-contrib-cssmin',
+33 silly cache add   rawSpec: '^0.10.0',
+33 silly cache add   spec: '>=0.10.0 <0.11.0',
+33 silly cache add   type: 'range' }
+34 verbose addNamed grunt-contrib-cssmin@>=0.10.0 <0.11.0
+35 silly addNamed semver.valid null
+36 silly addNamed semver.validRange >=0.10.0 <0.11.0
+37 silly addNameRange { name: 'grunt-contrib-cssmin',
+37 silly addNameRange   range: '>=0.10.0 <0.11.0',
+37 silly addNameRange   hasData: false }
+38 silly mapToRegistry name grunt-contrib-cssmin
+39 silly mapToRegistry using default registry
+40 silly mapToRegistry registry https://registry.npmjs.org/
+41 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-cssmin
+42 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-cssmin not in flight; fetching
+43 silly cache add args [ 'grunt-contrib-htmlmin@^0.3.0', null ]
+44 verbose cache add spec grunt-contrib-htmlmin@^0.3.0
+45 silly cache add parsed spec { raw: 'grunt-contrib-htmlmin@^0.3.0',
+45 silly cache add   scope: null,
+45 silly cache add   name: 'grunt-contrib-htmlmin',
+45 silly cache add   rawSpec: '^0.3.0',
+45 silly cache add   spec: '>=0.3.0 <0.4.0',
+45 silly cache add   type: 'range' }
+46 verbose addNamed grunt-contrib-htmlmin@>=0.3.0 <0.4.0
+47 silly addNamed semver.valid null
+48 silly addNamed semver.validRange >=0.3.0 <0.4.0
+49 silly addNameRange { name: 'grunt-contrib-htmlmin',
+49 silly addNameRange   range: '>=0.3.0 <0.4.0',
+49 silly addNameRange   hasData: false }
+50 silly mapToRegistry name grunt-contrib-htmlmin
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-htmlmin
+54 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-htmlmin not in flight; fetching
+55 silly cache add args [ 'grunt-contrib-imagemin@^0.9.2', null ]
+56 verbose cache add spec grunt-contrib-imagemin@^0.9.2
+57 silly cache add parsed spec { raw: 'grunt-contrib-imagemin@^0.9.2',
+57 silly cache add   scope: null,
+57 silly cache add   name: 'grunt-contrib-imagemin',
+57 silly cache add   rawSpec: '^0.9.2',
+57 silly cache add   spec: '>=0.9.2 <0.10.0',
+57 silly cache add   type: 'range' }
+58 verbose addNamed grunt-contrib-imagemin@>=0.9.2 <0.10.0
+59 silly addNamed semver.valid null
+60 silly addNamed semver.validRange >=0.9.2 <0.10.0
+61 silly addNameRange { name: 'grunt-contrib-imagemin',
+61 silly addNameRange   range: '>=0.9.2 <0.10.0',
+61 silly addNameRange   hasData: false }
+62 silly mapToRegistry name grunt-contrib-imagemin
+63 silly mapToRegistry using default registry
+64 silly mapToRegistry registry https://registry.npmjs.org/
+65 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-imagemin
+66 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-imagemin not in flight; fetching
+67 silly cache add args [ 'grunt-contrib-jshint@^0.10.0', null ]
+68 verbose cache add spec grunt-contrib-jshint@^0.10.0
+69 silly cache add parsed spec { raw: 'grunt-contrib-jshint@^0.10.0',
+69 silly cache add   scope: null,
+69 silly cache add   name: 'grunt-contrib-jshint',
+69 silly cache add   rawSpec: '^0.10.0',
+69 silly cache add   spec: '>=0.10.0 <0.11.0',
+69 silly cache add   type: 'range' }
+70 verbose addNamed grunt-contrib-jshint@>=0.10.0 <0.11.0
+71 silly addNamed semver.valid null
+72 silly addNamed semver.validRange >=0.10.0 <0.11.0
+73 silly addNameRange { name: 'grunt-contrib-jshint',
+73 silly addNameRange   range: '>=0.10.0 <0.11.0',
+73 silly addNameRange   hasData: false }
+74 silly mapToRegistry name grunt-contrib-jshint
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-jshint
+78 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-jshint not in flight; fetching
+79 silly cache add args [ 'grunt-contrib-uglify@^0.6.0', null ]
+80 verbose cache add spec grunt-contrib-uglify@^0.6.0
+81 silly cache add parsed spec { raw: 'grunt-contrib-uglify@^0.6.0',
+81 silly cache add   scope: null,
+81 silly cache add   name: 'grunt-contrib-uglify',
+81 silly cache add   rawSpec: '^0.6.0',
+81 silly cache add   spec: '>=0.6.0 <0.7.0',
+81 silly cache add   type: 'range' }
+82 verbose addNamed grunt-contrib-uglify@>=0.6.0 <0.7.0
+83 silly addNamed semver.valid null
+84 silly addNamed semver.validRange >=0.6.0 <0.7.0
+85 silly addNameRange { name: 'grunt-contrib-uglify',
+85 silly addNameRange   range: '>=0.6.0 <0.7.0',
+85 silly addNameRange   hasData: false }
+86 silly mapToRegistry name grunt-contrib-uglify
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-uglify
+90 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-uglify not in flight; fetching
+91 silly cache add args [ 'grunt-contrib-watch@^0.6.1', null ]
+92 verbose cache add spec grunt-contrib-watch@^0.6.1
+93 silly cache add parsed spec { raw: 'grunt-contrib-watch@^0.6.1',
+93 silly cache add   scope: null,
+93 silly cache add   name: 'grunt-contrib-watch',
+93 silly cache add   rawSpec: '^0.6.1',
+93 silly cache add   spec: '>=0.6.1 <0.7.0',
+93 silly cache add   type: 'range' }
+94 verbose addNamed grunt-contrib-watch@>=0.6.1 <0.7.0
+95 silly addNamed semver.valid null
+96 silly addNamed semver.validRange >=0.6.1 <0.7.0
+97 silly addNameRange { name: 'grunt-contrib-watch',
+97 silly addNameRange   range: '>=0.6.1 <0.7.0',
+97 silly addNameRange   hasData: false }
+98 silly mapToRegistry name grunt-contrib-watch
+99 silly mapToRegistry using default registry
+100 silly mapToRegistry registry https://registry.npmjs.org/
+101 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-watch
+102 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-watch not in flight; fetching
+103 silly cache add args [ 'grunt-filerev@^0.2.2', null ]
+104 verbose cache add spec grunt-filerev@^0.2.2
+105 silly cache add parsed spec { raw: 'grunt-filerev@^0.2.2',
+105 silly cache add   scope: null,
+105 silly cache add   name: 'grunt-filerev',
+105 silly cache add   rawSpec: '^0.2.2',
+105 silly cache add   spec: '>=0.2.2 <0.3.0',
+105 silly cache add   type: 'range' }
+106 verbose addNamed grunt-filerev@>=0.2.2 <0.3.0
+107 silly addNamed semver.valid null
+108 silly addNamed semver.validRange >=0.2.2 <0.3.0
+109 silly addNameRange { name: 'grunt-filerev',
+109 silly addNameRange   range: '>=0.2.2 <0.3.0',
+109 silly addNameRange   hasData: false }
+110 silly mapToRegistry name grunt-filerev
+111 silly mapToRegistry using default registry
+112 silly mapToRegistry registry https://registry.npmjs.org/
+113 silly mapToRegistry uri https://registry.npmjs.org/grunt-filerev
+114 verbose addNameRange registry:https://registry.npmjs.org/grunt-filerev not in flight; fetching
+115 silly cache add args [ 'grunt-google-cdn@^0.4.3', null ]
+116 verbose cache add spec grunt-google-cdn@^0.4.3
+117 silly cache add parsed spec { raw: 'grunt-google-cdn@^0.4.3',
+117 silly cache add   scope: null,
+117 silly cache add   name: 'grunt-google-cdn',
+117 silly cache add   rawSpec: '^0.4.3',
+117 silly cache add   spec: '>=0.4.3 <0.5.0',
+117 silly cache add   type: 'range' }
+118 verbose addNamed grunt-google-cdn@>=0.4.3 <0.5.0
+119 silly addNamed semver.valid null
+120 silly addNamed semver.validRange >=0.4.3 <0.5.0
+121 silly addNameRange { name: 'grunt-google-cdn',
+121 silly addNameRange   range: '>=0.4.3 <0.5.0',
+121 silly addNameRange   hasData: false }
+122 silly mapToRegistry name grunt-google-cdn
+123 silly mapToRegistry using default registry
+124 silly mapToRegistry registry https://registry.npmjs.org/
+125 silly mapToRegistry uri https://registry.npmjs.org/grunt-google-cdn
+126 verbose addNameRange registry:https://registry.npmjs.org/grunt-google-cdn not in flight; fetching
+127 verbose already installed skipping grunt-karma@^0.10.1 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+128 silly cache add args [ 'grunt-newer@^0.8.0', null ]
+129 verbose cache add spec grunt-newer@^0.8.0
+130 silly cache add parsed spec { raw: 'grunt-newer@^0.8.0',
+130 silly cache add   scope: null,
+130 silly cache add   name: 'grunt-newer',
+130 silly cache add   rawSpec: '^0.8.0',
+130 silly cache add   spec: '>=0.8.0 <0.9.0',
+130 silly cache add   type: 'range' }
+131 verbose addNamed grunt-newer@>=0.8.0 <0.9.0
+132 silly addNamed semver.valid null
+133 silly addNamed semver.validRange >=0.8.0 <0.9.0
+134 silly addNameRange { name: 'grunt-newer', range: '>=0.8.0 <0.9.0', hasData: false }
+135 silly mapToRegistry name grunt-newer
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry uri https://registry.npmjs.org/grunt-newer
+139 verbose addNameRange registry:https://registry.npmjs.org/grunt-newer not in flight; fetching
+140 silly cache add args [ 'grunt-ng-annotate@^0.8.0', null ]
+141 verbose cache add spec grunt-ng-annotate@^0.8.0
+142 silly cache add parsed spec { raw: 'grunt-ng-annotate@^0.8.0',
+142 silly cache add   scope: null,
+142 silly cache add   name: 'grunt-ng-annotate',
+142 silly cache add   rawSpec: '^0.8.0',
+142 silly cache add   spec: '>=0.8.0 <0.9.0',
+142 silly cache add   type: 'range' }
+143 verbose addNamed grunt-ng-annotate@>=0.8.0 <0.9.0
+144 silly addNamed semver.valid null
+145 silly addNamed semver.validRange >=0.8.0 <0.9.0
+146 silly addNameRange { name: 'grunt-ng-annotate',
+146 silly addNameRange   range: '>=0.8.0 <0.9.0',
+146 silly addNameRange   hasData: false }
+147 silly mapToRegistry name grunt-ng-annotate
+148 silly mapToRegistry using default registry
+149 silly mapToRegistry registry https://registry.npmjs.org/
+150 silly mapToRegistry uri https://registry.npmjs.org/grunt-ng-annotate
+151 verbose addNameRange registry:https://registry.npmjs.org/grunt-ng-annotate not in flight; fetching
+152 silly cache add args [ 'grunt-requirejs@^0.4.2', null ]
+153 verbose cache add spec grunt-requirejs@^0.4.2
+154 silly cache add parsed spec { raw: 'grunt-requirejs@^0.4.2',
+154 silly cache add   scope: null,
+154 silly cache add   name: 'grunt-requirejs',
+154 silly cache add   rawSpec: '^0.4.2',
+154 silly cache add   spec: '>=0.4.2 <0.5.0',
+154 silly cache add   type: 'range' }
+155 verbose addNamed grunt-requirejs@>=0.4.2 <0.5.0
+156 silly addNamed semver.valid null
+157 silly addNamed semver.validRange >=0.4.2 <0.5.0
+158 silly addNameRange { name: 'grunt-requirejs',
+158 silly addNameRange   range: '>=0.4.2 <0.5.0',
+158 silly addNameRange   hasData: false }
+159 silly mapToRegistry name grunt-requirejs
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry uri https://registry.npmjs.org/grunt-requirejs
+163 verbose addNameRange registry:https://registry.npmjs.org/grunt-requirejs not in flight; fetching
+164 silly cache add args [ 'grunt-svgmin@^2.0.0', null ]
+165 verbose cache add spec grunt-svgmin@^2.0.0
+166 silly cache add parsed spec { raw: 'grunt-svgmin@^2.0.0',
+166 silly cache add   scope: null,
+166 silly cache add   name: 'grunt-svgmin',
+166 silly cache add   rawSpec: '^2.0.0',
+166 silly cache add   spec: '>=2.0.0 <3.0.0',
+166 silly cache add   type: 'range' }
+167 verbose addNamed grunt-svgmin@>=2.0.0 <3.0.0
+168 silly addNamed semver.valid null
+169 silly addNamed semver.validRange >=2.0.0 <3.0.0
+170 silly addNameRange { name: 'grunt-svgmin', range: '>=2.0.0 <3.0.0', hasData: false }
+171 silly mapToRegistry name grunt-svgmin
+172 silly mapToRegistry using default registry
+173 silly mapToRegistry registry https://registry.npmjs.org/
+174 silly mapToRegistry uri https://registry.npmjs.org/grunt-svgmin
+175 verbose addNameRange registry:https://registry.npmjs.org/grunt-svgmin not in flight; fetching
+176 silly cache add args [ 'grunt-text-replace@^0.4.0', null ]
+177 verbose cache add spec grunt-text-replace@^0.4.0
+178 silly cache add parsed spec { raw: 'grunt-text-replace@^0.4.0',
+178 silly cache add   scope: null,
+178 silly cache add   name: 'grunt-text-replace',
+178 silly cache add   rawSpec: '^0.4.0',
+178 silly cache add   spec: '>=0.4.0 <0.5.0',
+178 silly cache add   type: 'range' }
+179 verbose addNamed grunt-text-replace@>=0.4.0 <0.5.0
+180 silly addNamed semver.valid null
+181 silly addNamed semver.validRange >=0.4.0 <0.5.0
+182 silly addNameRange { name: 'grunt-text-replace',
+182 silly addNameRange   range: '>=0.4.0 <0.5.0',
+182 silly addNameRange   hasData: false }
+183 silly mapToRegistry name grunt-text-replace
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/grunt-text-replace
+187 verbose addNameRange registry:https://registry.npmjs.org/grunt-text-replace not in flight; fetching
+188 silly cache add args [ 'grunt-usemin@^2.6.2', null ]
+189 verbose cache add spec grunt-usemin@^2.6.2
+190 silly cache add parsed spec { raw: 'grunt-usemin@^2.6.2',
+190 silly cache add   scope: null,
+190 silly cache add   name: 'grunt-usemin',
+190 silly cache add   rawSpec: '^2.6.2',
+190 silly cache add   spec: '>=2.6.2 <3.0.0',
+190 silly cache add   type: 'range' }
+191 verbose addNamed grunt-usemin@>=2.6.2 <3.0.0
+192 silly addNamed semver.valid null
+193 silly addNamed semver.validRange >=2.6.2 <3.0.0
+194 silly addNameRange { name: 'grunt-usemin', range: '>=2.6.2 <3.0.0', hasData: false }
+195 silly mapToRegistry name grunt-usemin
+196 silly mapToRegistry using default registry
+197 silly mapToRegistry registry https://registry.npmjs.org/
+198 silly mapToRegistry uri https://registry.npmjs.org/grunt-usemin
+199 verbose addNameRange registry:https://registry.npmjs.org/grunt-usemin not in flight; fetching
+200 silly cache add args [ 'grunt-wiredep@^2.0.0', null ]
+201 verbose cache add spec grunt-wiredep@^2.0.0
+202 silly cache add parsed spec { raw: 'grunt-wiredep@^2.0.0',
+202 silly cache add   scope: null,
+202 silly cache add   name: 'grunt-wiredep',
+202 silly cache add   rawSpec: '^2.0.0',
+202 silly cache add   spec: '>=2.0.0 <3.0.0',
+202 silly cache add   type: 'range' }
+203 verbose addNamed grunt-wiredep@>=2.0.0 <3.0.0
+204 silly addNamed semver.valid null
+205 silly addNamed semver.validRange >=2.0.0 <3.0.0
+206 silly addNameRange { name: 'grunt-wiredep',
+206 silly addNameRange   range: '>=2.0.0 <3.0.0',
+206 silly addNameRange   hasData: false }
+207 silly mapToRegistry name grunt-wiredep
+208 silly mapToRegistry using default registry
+209 silly mapToRegistry registry https://registry.npmjs.org/
+210 silly mapToRegistry uri https://registry.npmjs.org/grunt-wiredep
+211 verbose addNameRange registry:https://registry.npmjs.org/grunt-wiredep not in flight; fetching
+212 verbose already installed skipping jasmine-core@^2.2.0 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+213 silly cache add args [ 'jshint-stylish@^1.0.0', null ]
+214 verbose cache add spec jshint-stylish@^1.0.0
+215 silly cache add parsed spec { raw: 'jshint-stylish@^1.0.0',
+215 silly cache add   scope: null,
+215 silly cache add   name: 'jshint-stylish',
+215 silly cache add   rawSpec: '^1.0.0',
+215 silly cache add   spec: '>=1.0.0 <2.0.0',
+215 silly cache add   type: 'range' }
+216 verbose addNamed jshint-stylish@>=1.0.0 <2.0.0
+217 silly addNamed semver.valid null
+218 silly addNamed semver.validRange >=1.0.0 <2.0.0
+219 silly addNameRange { name: 'jshint-stylish',
+219 silly addNameRange   range: '>=1.0.0 <2.0.0',
+219 silly addNameRange   hasData: false }
+220 silly mapToRegistry name jshint-stylish
+221 silly mapToRegistry using default registry
+222 silly mapToRegistry registry https://registry.npmjs.org/
+223 silly mapToRegistry uri https://registry.npmjs.org/jshint-stylish
+224 verbose addNameRange registry:https://registry.npmjs.org/jshint-stylish not in flight; fetching
+225 verbose already installed skipping karma@^0.12.31 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+226 verbose already installed skipping karma-jasmine@^0.3.5 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+227 verbose already installed skipping karma-ng-html2js-preprocessor@^0.1.2 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+228 verbose already installed skipping karma-ng-scenario@^0.1.0 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+229 verbose already installed skipping karma-phantomjs-launcher@^0.1.4 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+230 verbose already installed skipping karma-requirejs@^0.2.2 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+231 silly cache add args [ 'load-grunt-tasks@^1.0.0', null ]
+232 verbose cache add spec load-grunt-tasks@^1.0.0
+233 silly cache add parsed spec { raw: 'load-grunt-tasks@^1.0.0',
+233 silly cache add   scope: null,
+233 silly cache add   name: 'load-grunt-tasks',
+233 silly cache add   rawSpec: '^1.0.0',
+233 silly cache add   spec: '>=1.0.0 <2.0.0',
+233 silly cache add   type: 'range' }
+234 verbose addNamed load-grunt-tasks@>=1.0.0 <2.0.0
+235 silly addNamed semver.valid null
+236 silly addNamed semver.validRange >=1.0.0 <2.0.0
+237 silly addNameRange { name: 'load-grunt-tasks',
+237 silly addNameRange   range: '>=1.0.0 <2.0.0',
+237 silly addNameRange   hasData: false }
+238 silly mapToRegistry name load-grunt-tasks
+239 silly mapToRegistry using default registry
+240 silly mapToRegistry registry https://registry.npmjs.org/
+241 silly mapToRegistry uri https://registry.npmjs.org/load-grunt-tasks
+242 verbose addNameRange registry:https://registry.npmjs.org/load-grunt-tasks not in flight; fetching
+243 verbose already installed skipping requirejs@^2.1.16 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+244 silly cache add args [ 'time-grunt@^1.0.0', null ]
+245 verbose cache add spec time-grunt@^1.0.0
+246 silly cache add parsed spec { raw: 'time-grunt@^1.0.0',
+246 silly cache add   scope: null,
+246 silly cache add   name: 'time-grunt',
+246 silly cache add   rawSpec: '^1.0.0',
+246 silly cache add   spec: '>=1.0.0 <2.0.0',
+246 silly cache add   type: 'range' }
+247 verbose addNamed time-grunt@>=1.0.0 <2.0.0
+248 silly addNamed semver.valid null
+249 silly addNamed semver.validRange >=1.0.0 <2.0.0
+250 silly addNameRange { name: 'time-grunt', range: '>=1.0.0 <2.0.0', hasData: false }
+251 silly mapToRegistry name time-grunt
+252 silly mapToRegistry using default registry
+253 silly mapToRegistry registry https://registry.npmjs.org/
+254 silly mapToRegistry uri https://registry.npmjs.org/time-grunt
+255 verbose addNameRange registry:https://registry.npmjs.org/time-grunt not in flight; fetching
+256 verbose already installed skipping grunt@^0.4.5 /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+257 silly cache add args [ 'grunt-autoprefixer@^2.0.0', null ]
+258 verbose cache add spec grunt-autoprefixer@^2.0.0
+259 silly cache add parsed spec { raw: 'grunt-autoprefixer@^2.0.0',
+259 silly cache add   scope: null,
+259 silly cache add   name: 'grunt-autoprefixer',
+259 silly cache add   rawSpec: '^2.0.0',
+259 silly cache add   spec: '>=2.0.0 <3.0.0',
+259 silly cache add   type: 'range' }
+260 verbose addNamed grunt-autoprefixer@>=2.0.0 <3.0.0
+261 silly addNamed semver.valid null
+262 silly addNamed semver.validRange >=2.0.0 <3.0.0
+263 silly addNameRange { name: 'grunt-autoprefixer',
+263 silly addNameRange   range: '>=2.0.0 <3.0.0',
+263 silly addNameRange   hasData: false }
+264 silly mapToRegistry name grunt-autoprefixer
+265 silly mapToRegistry using default registry
+266 silly mapToRegistry registry https://registry.npmjs.org/
+267 silly mapToRegistry uri https://registry.npmjs.org/grunt-autoprefixer
+268 verbose addNameRange registry:https://registry.npmjs.org/grunt-autoprefixer not in flight; fetching
+269 silly cache add args [ 'grunt-bower-requirejs@^2.0.0', null ]
+270 verbose cache add spec grunt-bower-requirejs@^2.0.0
+271 silly cache add parsed spec { raw: 'grunt-bower-requirejs@^2.0.0',
+271 silly cache add   scope: null,
+271 silly cache add   name: 'grunt-bower-requirejs',
+271 silly cache add   rawSpec: '^2.0.0',
+271 silly cache add   spec: '>=2.0.0 <3.0.0',
+271 silly cache add   type: 'range' }
+272 verbose addNamed grunt-bower-requirejs@>=2.0.0 <3.0.0
+273 silly addNamed semver.valid null
+274 silly addNamed semver.validRange >=2.0.0 <3.0.0
+275 silly addNameRange { name: 'grunt-bower-requirejs',
+275 silly addNameRange   range: '>=2.0.0 <3.0.0',
+275 silly addNameRange   hasData: false }
+276 silly mapToRegistry name grunt-bower-requirejs
+277 silly mapToRegistry using default registry
+278 silly mapToRegistry registry https://registry.npmjs.org/
+279 silly mapToRegistry uri https://registry.npmjs.org/grunt-bower-requirejs
+280 verbose addNameRange registry:https://registry.npmjs.org/grunt-bower-requirejs not in flight; fetching
+281 silly cache add args [ 'grunt-concurrent@^1.0.0', null ]
+282 verbose cache add spec grunt-concurrent@^1.0.0
+283 silly cache add parsed spec { raw: 'grunt-concurrent@^1.0.0',
+283 silly cache add   scope: null,
+283 silly cache add   name: 'grunt-concurrent',
+283 silly cache add   rawSpec: '^1.0.0',
+283 silly cache add   spec: '>=1.0.0 <2.0.0',
+283 silly cache add   type: 'range' }
+284 verbose addNamed grunt-concurrent@>=1.0.0 <2.0.0
+285 silly addNamed semver.valid null
+286 silly addNamed semver.validRange >=1.0.0 <2.0.0
+287 silly addNameRange { name: 'grunt-concurrent',
+287 silly addNameRange   range: '>=1.0.0 <2.0.0',
+287 silly addNameRange   hasData: false }
+288 silly mapToRegistry name grunt-concurrent
+289 silly mapToRegistry using default registry
+290 silly mapToRegistry registry https://registry.npmjs.org/
+291 silly mapToRegistry uri https://registry.npmjs.org/grunt-concurrent
+292 verbose addNameRange registry:https://registry.npmjs.org/grunt-concurrent not in flight; fetching
+293 silly cache add args [ 'grunt-contrib-clean@^0.6.0', null ]
+294 verbose cache add spec grunt-contrib-clean@^0.6.0
+295 silly cache add parsed spec { raw: 'grunt-contrib-clean@^0.6.0',
+295 silly cache add   scope: null,
+295 silly cache add   name: 'grunt-contrib-clean',
+295 silly cache add   rawSpec: '^0.6.0',
+295 silly cache add   spec: '>=0.6.0 <0.7.0',
+295 silly cache add   type: 'range' }
+296 verbose addNamed grunt-contrib-clean@>=0.6.0 <0.7.0
+297 silly addNamed semver.valid null
+298 silly addNamed semver.validRange >=0.6.0 <0.7.0
+299 silly addNameRange { name: 'grunt-contrib-clean',
+299 silly addNameRange   range: '>=0.6.0 <0.7.0',
+299 silly addNameRange   hasData: false }
+300 silly mapToRegistry name grunt-contrib-clean
+301 silly mapToRegistry using default registry
+302 silly mapToRegistry registry https://registry.npmjs.org/
+303 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-clean
+304 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-clean not in flight; fetching
+305 silly cache add args [ 'grunt-contrib-compass@^1.0.0', null ]
+306 verbose cache add spec grunt-contrib-compass@^1.0.0
+307 silly cache add parsed spec { raw: 'grunt-contrib-compass@^1.0.0',
+307 silly cache add   scope: null,
+307 silly cache add   name: 'grunt-contrib-compass',
+307 silly cache add   rawSpec: '^1.0.0',
+307 silly cache add   spec: '>=1.0.0 <2.0.0',
+307 silly cache add   type: 'range' }
+308 verbose addNamed grunt-contrib-compass@>=1.0.0 <2.0.0
+309 silly addNamed semver.valid null
+310 silly addNamed semver.validRange >=1.0.0 <2.0.0
+311 silly addNameRange { name: 'grunt-contrib-compass',
+311 silly addNameRange   range: '>=1.0.0 <2.0.0',
+311 silly addNameRange   hasData: false }
+312 silly mapToRegistry name grunt-contrib-compass
+313 silly mapToRegistry using default registry
+314 silly mapToRegistry registry https://registry.npmjs.org/
+315 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-compass
+316 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-compass not in flight; fetching
+317 silly cache add args [ 'grunt-contrib-concat@^0.5.0', null ]
+318 verbose cache add spec grunt-contrib-concat@^0.5.0
+319 silly cache add parsed spec { raw: 'grunt-contrib-concat@^0.5.0',
+319 silly cache add   scope: null,
+319 silly cache add   name: 'grunt-contrib-concat',
+319 silly cache add   rawSpec: '^0.5.0',
+319 silly cache add   spec: '>=0.5.0 <0.6.0',
+319 silly cache add   type: 'range' }
+320 verbose addNamed grunt-contrib-concat@>=0.5.0 <0.6.0
+321 silly addNamed semver.valid null
+322 silly addNamed semver.validRange >=0.5.0 <0.6.0
+323 silly addNameRange { name: 'grunt-contrib-concat',
+323 silly addNameRange   range: '>=0.5.0 <0.6.0',
+323 silly addNameRange   hasData: false }
+324 silly mapToRegistry name grunt-contrib-concat
+325 silly mapToRegistry using default registry
+326 silly mapToRegistry registry https://registry.npmjs.org/
+327 silly mapToRegistry uri https://registry.npmjs.org/grunt-contrib-concat
+328 verbose addNameRange registry:https://registry.npmjs.org/grunt-contrib-concat not in flight; fetching
+329 verbose request uri https://registry.npmjs.org/grunt-contrib-copy
+330 verbose request no auth needed
+331 info attempt registry request try #1 at 12:24:32
+332 verbose request id 5abe49cbc4740ede
+333 verbose etag "BSB34S4YV65LAR5UUBDJZMLQB"
+334 http request GET https://registry.npmjs.org/grunt-contrib-copy
+335 verbose request uri https://registry.npmjs.org/grunt-contrib-imagemin
+336 verbose request no auth needed
+337 info attempt registry request try #1 at 12:24:32
+338 verbose etag "9LB7NE2D7HR9791GMA58ILFOU"
+339 http request GET https://registry.npmjs.org/grunt-contrib-imagemin
+340 verbose request uri https://registry.npmjs.org/grunt-contrib-jshint
+341 verbose request no auth needed
+342 info attempt registry request try #1 at 12:24:32
+343 verbose etag "B1BH82GT9GVM0C692EHTEHKNP"
+344 http request GET https://registry.npmjs.org/grunt-contrib-jshint
+345 verbose request uri https://registry.npmjs.org/grunt-contrib-cssmin
+346 verbose request no auth needed
+347 info attempt registry request try #1 at 12:24:32
+348 verbose etag "7KZVTMZWULLEE8GV8TLMTGNEG"
+349 http request GET https://registry.npmjs.org/grunt-contrib-cssmin
+350 verbose request uri https://registry.npmjs.org/grunt-contrib-htmlmin
+351 verbose request no auth needed
+352 info attempt registry request try #1 at 12:24:32
+353 verbose etag "A3LP8RBVPN3E7TFQAEHYV6QAK"
+354 http request GET https://registry.npmjs.org/grunt-contrib-htmlmin
+355 verbose request uri https://registry.npmjs.org/grunt-contrib-watch
+356 verbose request no auth needed
+357 info attempt registry request try #1 at 12:24:32
+358 verbose etag "1TEXRJ8WTROUJXBBJFWH2M79B"
+359 http request GET https://registry.npmjs.org/grunt-contrib-watch
+360 verbose request uri https://registry.npmjs.org/grunt-newer
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 12:24:32
+363 verbose etag "544UVIPC74FJMAEUB2J7HXYFN"
+364 http request GET https://registry.npmjs.org/grunt-newer
+365 verbose request uri https://registry.npmjs.org/grunt-contrib-uglify
+366 verbose request no auth needed
+367 info attempt registry request try #1 at 12:24:32
+368 verbose etag "D36K44E2OJ6JLXP1EY2H5EO2P"
+369 http request GET https://registry.npmjs.org/grunt-contrib-uglify
+370 verbose request uri https://registry.npmjs.org/grunt-ng-annotate
+371 verbose request no auth needed
+372 info attempt registry request try #1 at 12:24:32
+373 verbose etag "DLEVMR3FJ44QKTFDP9KUJM5K6"
+374 http request GET https://registry.npmjs.org/grunt-ng-annotate
+375 verbose request uri https://registry.npmjs.org/grunt-svgmin
+376 verbose request no auth needed
+377 info attempt registry request try #1 at 12:24:32
+378 verbose etag "DFH4N8P4501N24AY3RBET54KT"
+379 http request GET https://registry.npmjs.org/grunt-svgmin
+380 verbose request uri https://registry.npmjs.org/grunt-filerev
+381 verbose request no auth needed
+382 info attempt registry request try #1 at 12:24:32
+383 verbose etag "71D3VQLU4IB01KAZIUC1YWPPS"
+384 http request GET https://registry.npmjs.org/grunt-filerev
+385 verbose request uri https://registry.npmjs.org/grunt-text-replace
+386 verbose request no auth needed
+387 info attempt registry request try #1 at 12:24:32
+388 verbose etag "4R9VGSH4IC4ITI8VFKZXJJHV5"
+389 http request GET https://registry.npmjs.org/grunt-text-replace
+390 verbose request uri https://registry.npmjs.org/grunt-wiredep
+391 verbose request no auth needed
+392 info attempt registry request try #1 at 12:24:32
+393 verbose etag "8MGA460EQTAGZE6PON4I8KS5"
+394 http request GET https://registry.npmjs.org/grunt-wiredep
+395 verbose request uri https://registry.npmjs.org/grunt-requirejs
+396 verbose request no auth needed
+397 info attempt registry request try #1 at 12:24:32
+398 verbose etag "5I4PN4R4L0HGFCQ6IWDS57BN"
+399 http request GET https://registry.npmjs.org/grunt-requirejs
+400 verbose request uri https://registry.npmjs.org/jshint-stylish
+401 verbose request no auth needed
+402 info attempt registry request try #1 at 12:24:32
+403 verbose etag "5AD3WPZDH736IEG2GAY2PY6Z0"
+404 http request GET https://registry.npmjs.org/jshint-stylish
+405 verbose request uri https://registry.npmjs.org/load-grunt-tasks
+406 verbose request no auth needed
+407 info attempt registry request try #1 at 12:24:32
+408 verbose etag "E27N6VDK8UFIOQUEIMDH3SSUG"
+409 http request GET https://registry.npmjs.org/load-grunt-tasks
+410 verbose request uri https://registry.npmjs.org/grunt-autoprefixer
+411 verbose request no auth needed
+412 info attempt registry request try #1 at 12:24:32
+413 verbose etag "1FUKUFXEJXRQFAI2Q6I69IOEP"
+414 http request GET https://registry.npmjs.org/grunt-autoprefixer
+415 verbose request uri https://registry.npmjs.org/grunt-usemin
+416 verbose request no auth needed
+417 info attempt registry request try #1 at 12:24:32
+418 verbose etag "18FZAY48R7UDDU5D6JQKDU4BE"
+419 http request GET https://registry.npmjs.org/grunt-usemin
+420 verbose request uri https://registry.npmjs.org/grunt-google-cdn
+421 verbose request no auth needed
+422 info attempt registry request try #1 at 12:24:32
+423 verbose etag "98AMV143LFZ81CXMJP6SGCNQT"
+424 http request GET https://registry.npmjs.org/grunt-google-cdn
+425 verbose request uri https://registry.npmjs.org/time-grunt
+426 verbose request no auth needed
+427 info attempt registry request try #1 at 12:24:32
+428 verbose etag "AMQR7O463HHARGXKQ75HB7SNC"
+429 http request GET https://registry.npmjs.org/time-grunt
+430 verbose request uri https://registry.npmjs.org/grunt-bower-requirejs
+431 verbose request no auth needed
+432 info attempt registry request try #1 at 12:24:32
+433 verbose etag "DFNO2ZK5M0RJEP8DQAOG2BY1D"
+434 http request GET https://registry.npmjs.org/grunt-bower-requirejs
+435 verbose request uri https://registry.npmjs.org/grunt-contrib-clean
+436 verbose request no auth needed
+437 info attempt registry request try #1 at 12:24:32
+438 verbose etag "4BV2U402CXV6APW7L76NS7ZEB"
+439 http request GET https://registry.npmjs.org/grunt-contrib-clean
+440 verbose request uri https://registry.npmjs.org/grunt-concurrent
+441 verbose request no auth needed
+442 info attempt registry request try #1 at 12:24:32
+443 verbose etag "EOQKR3TEDM0YFPF10BK5ZZHRS"
+444 http request GET https://registry.npmjs.org/grunt-concurrent
+445 verbose request uri https://registry.npmjs.org/grunt-contrib-connect
+446 verbose request no auth needed
+447 info attempt registry request try #1 at 12:24:32
+448 verbose etag "7NEZEF7OUIHYMJGCAIQ1DX3ZA"
+449 http request GET https://registry.npmjs.org/grunt-contrib-connect
+450 verbose request uri https://registry.npmjs.org/grunt-contrib-concat
+451 verbose request no auth needed
+452 info attempt registry request try #1 at 12:24:32
+453 verbose etag "7EG7A1FGU7PSDNQDN72PJJ99Q"
+454 http request GET https://registry.npmjs.org/grunt-contrib-concat
+455 verbose request uri https://registry.npmjs.org/grunt-contrib-compass
+456 verbose request no auth needed
+457 info attempt registry request try #1 at 12:24:32
+458 verbose etag "409R1GZ6QVD3GC7Q7ZKNJ4CRD"
+459 http request GET https://registry.npmjs.org/grunt-contrib-compass
+460 http 304 https://registry.npmjs.org/grunt-contrib-watch
+461 silly get cb [ 304,
+461 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+461 silly get     server: 'Apache',
+461 silly get     via: '1.1 varnish',
+461 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+461 silly get     'cache-control': 'max-age=60',
+461 silly get     etag: '"1TEXRJ8WTROUJXBBJFWH2M79B"',
+461 silly get     age: '7',
+461 silly get     'x-served-by': 'cache-fra1225-FRA',
+461 silly get     'x-cache': 'HIT',
+461 silly get     'x-cache-hits': '1',
+461 silly get     'x-timer': 'S1427455472.490817,VS0,VE0',
+461 silly get     vary: 'Accept',
+461 silly get     'content-length': '0',
+461 silly get     'keep-alive': 'timeout=10, max=50',
+461 silly get     connection: 'Keep-Alive' } ]
+462 verbose etag https://registry.npmjs.org/grunt-contrib-watch from cache
+463 verbose get saving grunt-contrib-watch to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-watch/.cache.json
+464 http 304 https://registry.npmjs.org/grunt-contrib-uglify
+465 silly get cb [ 304,
+465 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+465 silly get     server: 'Apache',
+465 silly get     via: '1.1 varnish',
+465 silly get     'last-modified': 'Fri, 27 Mar 2015 11:23:51 GMT',
+465 silly get     'cache-control': 'max-age=60',
+465 silly get     etag: '"D36K44E2OJ6JLXP1EY2H5EO2P"',
+465 silly get     age: '41',
+465 silly get     'x-served-by': 'cache-fra1237-FRA',
+465 silly get     'x-cache': 'HIT',
+465 silly get     'x-cache-hits': '2',
+465 silly get     'x-timer': 'S1427455472.492181,VS0,VE0',
+465 silly get     vary: 'Accept',
+465 silly get     'content-length': '0',
+465 silly get     'keep-alive': 'timeout=10, max=50',
+465 silly get     connection: 'Keep-Alive' } ]
+466 verbose etag https://registry.npmjs.org/grunt-contrib-uglify from cache
+467 verbose get saving grunt-contrib-uglify to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-uglify/.cache.json
+468 http 304 https://registry.npmjs.org/grunt-newer
+469 silly get cb [ 304,
+469 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+469 silly get     server: 'Apache',
+469 silly get     via: '1.1 varnish',
+469 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+469 silly get     'cache-control': 'max-age=60',
+469 silly get     etag: '"544UVIPC74FJMAEUB2J7HXYFN"',
+469 silly get     age: '40',
+469 silly get     'x-served-by': 'cache-fra1240-FRA',
+469 silly get     'x-cache': 'HIT',
+469 silly get     'x-cache-hits': '1',
+469 silly get     'x-timer': 'S1427455472.492705,VS0,VE0',
+469 silly get     vary: 'Accept',
+469 silly get     'content-length': '0',
+469 silly get     'keep-alive': 'timeout=10, max=50',
+469 silly get     connection: 'Keep-Alive' } ]
+470 verbose etag https://registry.npmjs.org/grunt-newer from cache
+471 verbose get saving grunt-newer to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-newer/.cache.json
+472 http 304 https://registry.npmjs.org/grunt-wiredep
+473 silly get cb [ 304,
+473 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+473 silly get     server: 'Apache',
+473 silly get     via: '1.1 varnish',
+473 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+473 silly get     'cache-control': 'max-age=60',
+473 silly get     etag: '"8MGA460EQTAGZE6PON4I8KS5"',
+473 silly get     age: '56',
+473 silly get     'x-served-by': 'cache-fra1224-FRA',
+473 silly get     'x-cache': 'HIT',
+473 silly get     'x-cache-hits': '1',
+473 silly get     'x-timer': 'S1427455472.493176,VS0,VE0',
+473 silly get     vary: 'Accept',
+473 silly get     'content-length': '0',
+473 silly get     'keep-alive': 'timeout=10, max=50',
+473 silly get     connection: 'Keep-Alive' } ]
+474 verbose etag https://registry.npmjs.org/grunt-wiredep from cache
+475 verbose get saving grunt-wiredep to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-wiredep/.cache.json
+476 http 304 https://registry.npmjs.org/grunt-contrib-cssmin
+477 silly get cb [ 304,
+477 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+477 silly get     server: 'Apache',
+477 silly get     via: '1.1 varnish',
+477 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+477 silly get     'cache-control': 'max-age=60',
+477 silly get     etag: '"7KZVTMZWULLEE8GV8TLMTGNEG"',
+477 silly get     age: '28',
+477 silly get     'x-served-by': 'cache-fra1243-FRA',
+477 silly get     'x-cache': 'HIT',
+477 silly get     'x-cache-hits': '1',
+477 silly get     'x-timer': 'S1427455472.502984,VS0,VE0',
+477 silly get     vary: 'Accept',
+477 silly get     'content-length': '0',
+477 silly get     'keep-alive': 'timeout=10, max=50',
+477 silly get     connection: 'Keep-Alive' } ]
+478 verbose etag https://registry.npmjs.org/grunt-contrib-cssmin from cache
+479 verbose get saving grunt-contrib-cssmin to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-cssmin/.cache.json
+480 http 304 https://registry.npmjs.org/grunt-contrib-jshint
+481 silly get cb [ 304,
+481 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+481 silly get     server: 'Apache',
+481 silly get     via: '1.1 varnish',
+481 silly get     'last-modified': 'Fri, 27 Mar 2015 11:23:44 GMT',
+481 silly get     'cache-control': 'max-age=60',
+481 silly get     etag: '"B1BH82GT9GVM0C692EHTEHKNP"',
+481 silly get     age: '55',
+481 silly get     'x-served-by': 'cache-fra1223-FRA',
+481 silly get     'x-cache': 'HIT',
+481 silly get     'x-cache-hits': '4',
+481 silly get     'x-timer': 'S1427455472.504072,VS0,VE0',
+481 silly get     vary: 'Accept',
+481 silly get     'content-length': '0',
+481 silly get     'keep-alive': 'timeout=10, max=50',
+481 silly get     connection: 'Keep-Alive' } ]
+482 verbose etag https://registry.npmjs.org/grunt-contrib-jshint from cache
+483 verbose get saving grunt-contrib-jshint to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-jshint/.cache.json
+484 http 304 https://registry.npmjs.org/grunt-contrib-imagemin
+485 silly get cb [ 304,
+485 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+485 silly get     server: 'Apache',
+485 silly get     via: '1.1 varnish',
+485 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+485 silly get     'cache-control': 'max-age=60',
+485 silly get     etag: '"9LB7NE2D7HR9791GMA58ILFOU"',
+485 silly get     age: '40',
+485 silly get     'x-served-by': 'cache-fra1222-FRA',
+485 silly get     'x-cache': 'HIT',
+485 silly get     'x-cache-hits': '1',
+485 silly get     'x-timer': 'S1427455472.503499,VS0,VE0',
+485 silly get     vary: 'Accept',
+485 silly get     'content-length': '0',
+485 silly get     'keep-alive': 'timeout=10, max=50',
+485 silly get     connection: 'Keep-Alive' } ]
+486 verbose etag https://registry.npmjs.org/grunt-contrib-imagemin from cache
+487 verbose get saving grunt-contrib-imagemin to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-imagemin/.cache.json
+488 http 304 https://registry.npmjs.org/grunt-contrib-copy
+489 silly get cb [ 304,
+489 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+489 silly get     server: 'Apache',
+489 silly get     via: '1.1 varnish',
+489 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+489 silly get     'cache-control': 'max-age=60',
+489 silly get     etag: '"BSB34S4YV65LAR5UUBDJZMLQB"',
+489 silly get     age: '56',
+489 silly get     'x-served-by': 'cache-fra1249-FRA',
+489 silly get     'x-cache': 'HIT',
+489 silly get     'x-cache-hits': '1',
+489 silly get     'x-timer': 'S1427455472.504127,VS0,VE0',
+489 silly get     vary: 'Accept',
+489 silly get     'content-length': '0',
+489 silly get     'keep-alive': 'timeout=10, max=50',
+489 silly get     connection: 'Keep-Alive' } ]
+490 verbose etag https://registry.npmjs.org/grunt-contrib-copy from cache
+491 verbose get saving grunt-contrib-copy to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-copy/.cache.json
+492 http 304 https://registry.npmjs.org/load-grunt-tasks
+493 silly get cb [ 304,
+493 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+493 silly get     server: 'Apache',
+493 silly get     via: '1.1 varnish',
+493 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+493 silly get     'cache-control': 'max-age=60',
+493 silly get     etag: '"E27N6VDK8UFIOQUEIMDH3SSUG"',
+493 silly get     age: '41',
+493 silly get     'x-served-by': 'cache-fra1250-FRA',
+493 silly get     'x-cache': 'HIT',
+493 silly get     'x-cache-hits': '1',
+493 silly get     'x-timer': 'S1427455472.510644,VS0,VE0',
+493 silly get     vary: 'Accept',
+493 silly get     'content-length': '0',
+493 silly get     'keep-alive': 'timeout=10, max=50',
+493 silly get     connection: 'Keep-Alive' } ]
+494 verbose etag https://registry.npmjs.org/load-grunt-tasks from cache
+495 verbose get saving load-grunt-tasks to /Users/adrienbrussolo/.npm/registry.npmjs.org/load-grunt-tasks/.cache.json
+496 http 304 https://registry.npmjs.org/grunt-svgmin
+497 silly get cb [ 304,
+497 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+497 silly get     server: 'Apache',
+497 silly get     via: '1.1 varnish',
+497 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+497 silly get     'cache-control': 'max-age=60',
+497 silly get     etag: '"DFH4N8P4501N24AY3RBET54KT"',
+497 silly get     age: '40',
+497 silly get     'x-served-by': 'cache-fra1234-FRA',
+497 silly get     'x-cache': 'HIT',
+497 silly get     'x-cache-hits': '1',
+497 silly get     'x-timer': 'S1427455472.510726,VS0,VE0',
+497 silly get     vary: 'Accept',
+497 silly get     'content-length': '0',
+497 silly get     'keep-alive': 'timeout=10, max=50',
+497 silly get     connection: 'Keep-Alive' } ]
+498 verbose etag https://registry.npmjs.org/grunt-svgmin from cache
+499 verbose get saving grunt-svgmin to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-svgmin/.cache.json
+500 http 304 https://registry.npmjs.org/grunt-autoprefixer
+501 silly get cb [ 304,
+501 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+501 silly get     server: 'Apache',
+501 silly get     via: '1.1 varnish',
+501 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+501 silly get     'cache-control': 'max-age=60',
+501 silly get     etag: '"1FUKUFXEJXRQFAI2Q6I69IOEP"',
+501 silly get     age: '40',
+501 silly get     'x-served-by': 'cache-fra1230-FRA',
+501 silly get     'x-cache': 'HIT',
+501 silly get     'x-cache-hits': '1',
+501 silly get     'x-timer': 'S1427455472.511514,VS0,VE0',
+501 silly get     vary: 'Accept',
+501 silly get     'content-length': '0',
+501 silly get     'keep-alive': 'timeout=10, max=50',
+501 silly get     connection: 'Keep-Alive' } ]
+502 verbose etag https://registry.npmjs.org/grunt-autoprefixer from cache
+503 verbose get saving grunt-autoprefixer to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-autoprefixer/.cache.json
+504 http 304 https://registry.npmjs.org/grunt-google-cdn
+505 silly get cb [ 304,
+505 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+505 silly get     server: 'Apache',
+505 silly get     via: '1.1 varnish',
+505 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+505 silly get     'cache-control': 'max-age=60',
+505 silly get     etag: '"98AMV143LFZ81CXMJP6SGCNQT"',
+505 silly get     age: '40',
+505 silly get     'x-served-by': 'cache-fra1236-FRA',
+505 silly get     'x-cache': 'HIT',
+505 silly get     'x-cache-hits': '1',
+505 silly get     'x-timer': 'S1427455472.511628,VS0,VE0',
+505 silly get     vary: 'Accept',
+505 silly get     'content-length': '0',
+505 silly get     'keep-alive': 'timeout=10, max=50',
+505 silly get     connection: 'Keep-Alive' } ]
+506 verbose etag https://registry.npmjs.org/grunt-google-cdn from cache
+507 verbose get saving grunt-google-cdn to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-google-cdn/.cache.json
+508 http 304 https://registry.npmjs.org/jshint-stylish
+509 silly get cb [ 304,
+509 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+509 silly get     server: 'Apache',
+509 silly get     via: '1.1 varnish',
+509 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+509 silly get     'cache-control': 'max-age=60',
+509 silly get     etag: '"5AD3WPZDH736IEG2GAY2PY6Z0"',
+509 silly get     age: '43',
+509 silly get     'x-served-by': 'cache-fra1233-FRA',
+509 silly get     'x-cache': 'HIT',
+509 silly get     'x-cache-hits': '1',
+509 silly get     'x-timer': 'S1427455472.511939,VS0,VE0',
+509 silly get     vary: 'Accept',
+509 silly get     'content-length': '0',
+509 silly get     'keep-alive': 'timeout=10, max=50',
+509 silly get     connection: 'Keep-Alive' } ]
+510 verbose etag https://registry.npmjs.org/jshint-stylish from cache
+511 verbose get saving jshint-stylish to /Users/adrienbrussolo/.npm/registry.npmjs.org/jshint-stylish/.cache.json
+512 http 304 https://registry.npmjs.org/grunt-usemin
+513 silly get cb [ 304,
+513 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+513 silly get     server: 'Apache',
+513 silly get     via: '1.1 varnish',
+513 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+513 silly get     'cache-control': 'max-age=60',
+513 silly get     etag: '"18FZAY48R7UDDU5D6JQKDU4BE"',
+513 silly get     age: '56',
+513 silly get     'x-served-by': 'cache-fra1231-FRA',
+513 silly get     'x-cache': 'HIT',
+513 silly get     'x-cache-hits': '1',
+513 silly get     'x-timer': 'S1427455472.511949,VS0,VE0',
+513 silly get     vary: 'Accept',
+513 silly get     'content-length': '0',
+513 silly get     'keep-alive': 'timeout=10, max=50',
+513 silly get     connection: 'Keep-Alive' } ]
+514 verbose etag https://registry.npmjs.org/grunt-usemin from cache
+515 verbose get saving grunt-usemin to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-usemin/.cache.json
+516 http 304 https://registry.npmjs.org/grunt-concurrent
+517 silly get cb [ 304,
+517 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+517 silly get     server: 'Apache',
+517 silly get     via: '1.1 varnish',
+517 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+517 silly get     'cache-control': 'max-age=60',
+517 silly get     etag: '"EOQKR3TEDM0YFPF10BK5ZZHRS"',
+517 silly get     age: '28',
+517 silly get     'x-served-by': 'cache-fra1222-FRA',
+517 silly get     'x-cache': 'HIT',
+517 silly get     'x-cache-hits': '1',
+517 silly get     'x-timer': 'S1427455472.525842,VS0,VE0',
+517 silly get     vary: 'Accept',
+517 silly get     'content-length': '0',
+517 silly get     'keep-alive': 'timeout=10, max=50',
+517 silly get     connection: 'Keep-Alive' } ]
+518 verbose etag https://registry.npmjs.org/grunt-concurrent from cache
+519 verbose get saving grunt-concurrent to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-concurrent/.cache.json
+520 http 304 https://registry.npmjs.org/grunt-contrib-concat
+521 silly get cb [ 304,
+521 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+521 silly get     server: 'Apache',
+521 silly get     via: '1.1 varnish',
+521 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:04 GMT',
+521 silly get     'cache-control': 'max-age=60',
+521 silly get     etag: '"7EG7A1FGU7PSDNQDN72PJJ99Q"',
+521 silly get     age: '28',
+521 silly get     'x-served-by': 'cache-fra1236-FRA',
+521 silly get     'x-cache': 'HIT',
+521 silly get     'x-cache-hits': '2',
+521 silly get     'x-timer': 'S1427455472.526826,VS0,VE0',
+521 silly get     vary: 'Accept',
+521 silly get     'content-length': '0',
+521 silly get     'keep-alive': 'timeout=10, max=50',
+521 silly get     connection: 'Keep-Alive' } ]
+522 verbose etag https://registry.npmjs.org/grunt-contrib-concat from cache
+523 verbose get saving grunt-contrib-concat to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-concat/.cache.json
+524 http 304 https://registry.npmjs.org/grunt-contrib-connect
+525 silly get cb [ 304,
+525 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+525 silly get     server: 'Apache',
+525 silly get     via: '1.1 varnish',
+525 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+525 silly get     'cache-control': 'max-age=60',
+525 silly get     etag: '"7NEZEF7OUIHYMJGCAIQ1DX3ZA"',
+525 silly get     age: '41',
+525 silly get     'x-served-by': 'cache-fra1249-FRA',
+525 silly get     'x-cache': 'HIT',
+525 silly get     'x-cache-hits': '1',
+525 silly get     'x-timer': 'S1427455472.526946,VS0,VE0',
+525 silly get     vary: 'Accept',
+525 silly get     'content-length': '0',
+525 silly get     'keep-alive': 'timeout=10, max=50',
+525 silly get     connection: 'Keep-Alive' } ]
+526 verbose etag https://registry.npmjs.org/grunt-contrib-connect from cache
+527 verbose get saving grunt-contrib-connect to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-connect/.cache.json
+528 http 304 https://registry.npmjs.org/grunt-contrib-clean
+529 silly get cb [ 304,
+529 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+529 silly get     server: 'Apache',
+529 silly get     via: '1.1 varnish',
+529 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:02 GMT',
+529 silly get     'cache-control': 'max-age=60',
+529 silly get     etag: '"4BV2U402CXV6APW7L76NS7ZEB"',
+529 silly get     age: '40',
+529 silly get     'x-served-by': 'cache-fra1236-FRA',
+529 silly get     'x-cache': 'HIT',
+529 silly get     'x-cache-hits': '3',
+529 silly get     'x-timer': 'S1427455472.527535,VS0,VE0',
+529 silly get     vary: 'Accept',
+529 silly get     'content-length': '0',
+529 silly get     'keep-alive': 'timeout=10, max=50',
+529 silly get     connection: 'Keep-Alive' } ]
+530 verbose etag https://registry.npmjs.org/grunt-contrib-clean from cache
+531 verbose get saving grunt-contrib-clean to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-clean/.cache.json
+532 silly addNameRange number 2 { name: 'grunt-contrib-uglify',
+532 silly addNameRange   range: '>=0.6.0 <0.7.0',
+532 silly addNameRange   hasData: true }
+533 silly addNameRange versions [ 'grunt-contrib-uglify',
+533 silly addNameRange   [ '0.1.0',
+533 silly addNameRange     '0.1.1',
+533 silly addNameRange     '0.1.2',
+533 silly addNameRange     '0.2.0',
+533 silly addNameRange     '0.2.1',
+533 silly addNameRange     '0.2.2',
+533 silly addNameRange     '0.2.3',
+533 silly addNameRange     '0.2.4',
+533 silly addNameRange     '0.2.5',
+533 silly addNameRange     '0.2.6',
+533 silly addNameRange     '0.2.7',
+533 silly addNameRange     '0.3.0',
+533 silly addNameRange     '0.3.1',
+533 silly addNameRange     '0.1.1-rc5',
+533 silly addNameRange     '0.1.1-rc6',
+533 silly addNameRange     '0.3.2',
+533 silly addNameRange     '0.3.3',
+533 silly addNameRange     '0.4.0',
+533 silly addNameRange     '0.5.0',
+533 silly addNameRange     '0.4.1',
+533 silly addNameRange     '0.5.1',
+533 silly addNameRange     '0.6.0',
+533 silly addNameRange     '0.7.0',
+533 silly addNameRange     '0.8.0' ] ]
+534 verbose addNamed grunt-contrib-uglify@0.6.0
+535 silly addNamed semver.valid 0.6.0
+536 silly addNamed semver.validRange 0.6.0
+537 silly addNameRange number 2 { name: 'grunt-contrib-watch',
+537 silly addNameRange   range: '>=0.6.1 <0.7.0',
+537 silly addNameRange   hasData: true }
+538 silly addNameRange versions [ 'grunt-contrib-watch',
+538 silly addNameRange   [ '0.1.0',
+538 silly addNameRange     '0.1.1',
+538 silly addNameRange     '0.1.2',
+538 silly addNameRange     '0.1.3',
+538 silly addNameRange     '0.1.4',
+538 silly addNameRange     '0.2.0',
+538 silly addNameRange     '0.3.0',
+538 silly addNameRange     '0.3.1',
+538 silly addNameRange     '0.4.0',
+538 silly addNameRange     '0.4.1',
+538 silly addNameRange     '0.4.2',
+538 silly addNameRange     '0.4.3',
+538 silly addNameRange     '0.4.4',
+538 silly addNameRange     '0.5.0',
+538 silly addNameRange     '0.5.1',
+538 silly addNameRange     '0.5.2',
+538 silly addNameRange     '0.5.3',
+538 silly addNameRange     '0.6.0',
+538 silly addNameRange     '0.6.1',
+538 silly addNameRange     '0.2.0-a',
+538 silly addNameRange     '0.2.0-rc5',
+538 silly addNameRange     '0.2.0-rc7' ] ]
+539 verbose addNamed grunt-contrib-watch@0.6.1
+540 silly addNamed semver.valid 0.6.1
+541 silly addNamed semver.validRange 0.6.1
+542 silly addNameRange number 2 { name: 'grunt-newer', range: '>=0.8.0 <0.9.0', hasData: true }
+543 silly addNameRange versions [ 'grunt-newer',
+543 silly addNameRange   [ '0.1.0',
+543 silly addNameRange     '0.2.0',
+543 silly addNameRange     '0.3.1',
+543 silly addNameRange     '0.4.0',
+543 silly addNameRange     '0.4.1',
+543 silly addNameRange     '0.5.0',
+543 silly addNameRange     '0.5.1',
+543 silly addNameRange     '0.5.2',
+543 silly addNameRange     '0.5.3',
+543 silly addNameRange     '0.5.4',
+543 silly addNameRange     '0.6.0',
+543 silly addNameRange     '0.6.1',
+543 silly addNameRange     '0.7.0',
+543 silly addNameRange     '0.8.0',
+543 silly addNameRange     '1.0.0',
+543 silly addNameRange     '1.1.0' ] ]
+544 verbose addNamed grunt-newer@0.8.0
+545 silly addNamed semver.valid 0.8.0
+546 silly addNamed semver.validRange 0.8.0
+547 silly addNameRange number 2 { name: 'grunt-contrib-cssmin',
+547 silly addNameRange   range: '>=0.10.0 <0.11.0',
+547 silly addNameRange   hasData: true }
+548 silly addNameRange versions [ 'grunt-contrib-cssmin',
+548 silly addNameRange   [ '0.4.0',
+548 silly addNameRange     '0.4.1',
+548 silly addNameRange     '0.4.2',
+548 silly addNameRange     '0.5.0',
+548 silly addNameRange     '0.6.0',
+548 silly addNameRange     '0.6.1',
+548 silly addNameRange     '0.6.2',
+548 silly addNameRange     '0.7.0',
+548 silly addNameRange     '0.8.0',
+548 silly addNameRange     '0.9.0',
+548 silly addNameRange     '0.10.0',
+548 silly addNameRange     '0.11.0',
+548 silly addNameRange     '0.12.0',
+548 silly addNameRange     '0.12.1',
+548 silly addNameRange     '0.12.2' ] ]
+549 verbose addNamed grunt-contrib-cssmin@0.10.0
+550 silly addNamed semver.valid 0.10.0
+551 silly addNamed semver.validRange 0.10.0
+552 silly addNameRange number 2 { name: 'grunt-contrib-jshint',
+552 silly addNameRange   range: '>=0.10.0 <0.11.0',
+552 silly addNameRange   hasData: true }
+553 silly addNameRange versions [ 'grunt-contrib-jshint',
+553 silly addNameRange   [ '0.1.0',
+553 silly addNameRange     '0.1.1',
+553 silly addNameRange     '0.2.0',
+553 silly addNameRange     '0.3.0',
+553 silly addNameRange     '0.4.0',
+553 silly addNameRange     '0.4.1',
+553 silly addNameRange     '0.4.2',
+553 silly addNameRange     '0.4.3',
+553 silly addNameRange     '0.5.0',
+553 silly addNameRange     '0.5.1',
+553 silly addNameRange     '0.5.2',
+553 silly addNameRange     '0.5.3',
+553 silly addNameRange     '0.5.4',
+553 silly addNameRange     '0.6.0',
+553 silly addNameRange     '0.6.1',
+553 silly addNameRange     '0.6.2',
+553 silly addNameRange     '0.6.3',
+553 silly addNameRange     '0.6.4',
+553 silly addNameRange     '0.6.5',
+553 silly addNameRange     '0.7.0',
+553 silly addNameRange     '0.7.1',
+553 silly addNameRange     '0.7.2',
+553 silly addNameRange     '0.8.0',
+553 silly addNameRange     '0.9.0',
+553 silly addNameRange     '0.9.1',
+553 silly addNameRange     '0.9.2',
+553 silly addNameRange     '0.10.0',
+553 silly addNameRange     '0.11.0',
+553 silly addNameRange     '0.11.1',
+553 silly addNameRange     '0.1.1-rc5',
+553 silly addNameRange     '0.1.1-rc6' ] ]
+554 verbose addNamed grunt-contrib-jshint@0.10.0
+555 silly addNamed semver.valid 0.10.0
+556 silly addNamed semver.validRange 0.10.0
+557 silly addNameRange number 2 { name: 'grunt-wiredep', range: '>=2.0.0 <3.0.0', hasData: true }
+558 silly addNameRange versions [ 'grunt-wiredep',
+558 silly addNameRange   [ '1.7.0', '1.7.1', '1.8.0', '1.9.0', '2.0.0' ] ]
+559 verbose addNamed grunt-wiredep@2.0.0
+560 silly addNamed semver.valid 2.0.0
+561 silly addNamed semver.validRange 2.0.0
+562 silly addNameRange number 2 { name: 'grunt-contrib-copy',
+562 silly addNameRange   range: '>=0.7.0 <0.8.0',
+562 silly addNameRange   hasData: true }
+563 silly addNameRange versions [ 'grunt-contrib-copy',
+563 silly addNameRange   [ '0.2.0',
+563 silly addNameRange     '0.2.1',
+563 silly addNameRange     '0.2.2',
+563 silly addNameRange     '0.2.3',
+563 silly addNameRange     '0.2.4',
+563 silly addNameRange     '0.3.0',
+563 silly addNameRange     '0.3.1',
+563 silly addNameRange     '0.3.2',
+563 silly addNameRange     '0.4.0',
+563 silly addNameRange     '0.4.1',
+563 silly addNameRange     '0.5.0',
+563 silly addNameRange     '0.6.0',
+563 silly addNameRange     '0.7.0',
+563 silly addNameRange     '0.8.0',
+563 silly addNameRange     '0.4.0-rc7' ] ]
+564 verbose addNamed grunt-contrib-copy@0.7.0
+565 silly addNamed semver.valid 0.7.0
+566 silly addNamed semver.validRange 0.7.0
+567 silly addNameRange number 2 { name: 'load-grunt-tasks',
+567 silly addNameRange   range: '>=1.0.0 <2.0.0',
+567 silly addNameRange   hasData: true }
+568 silly addNameRange versions [ 'load-grunt-tasks',
+568 silly addNameRange   [ '0.1.0',
+568 silly addNameRange     '0.1.1',
+568 silly addNameRange     '0.1.2',
+568 silly addNameRange     '0.1.3',
+568 silly addNameRange     '0.2.0',
+568 silly addNameRange     '0.2.1',
+568 silly addNameRange     '0.3.0',
+568 silly addNameRange     '0.4.0',
+568 silly addNameRange     '0.5.0',
+568 silly addNameRange     '0.6.0',
+568 silly addNameRange     '1.0.0',
+568 silly addNameRange     '2.0.0',
+568 silly addNameRange     '3.0.0',
+568 silly addNameRange     '3.1.0' ] ]
+569 verbose addNamed load-grunt-tasks@1.0.0
+570 silly addNamed semver.valid 1.0.0
+571 silly addNamed semver.validRange 1.0.0
+572 silly addNameRange number 2 { name: 'grunt-contrib-imagemin',
+572 silly addNameRange   range: '>=0.9.2 <0.10.0',
+572 silly addNameRange   hasData: true }
+573 silly addNameRange versions [ 'grunt-contrib-imagemin',
+573 silly addNameRange   [ '0.1.0',
+573 silly addNameRange     '0.1.1',
+573 silly addNameRange     '0.1.2',
+573 silly addNameRange     '0.1.3',
+573 silly addNameRange     '0.1.4',
+573 silly addNameRange     '0.1.1-rc7',
+573 silly addNameRange     '0.1.1-rc8',
+573 silly addNameRange     '0.2.0',
+573 silly addNameRange     '0.2.1',
+573 silly addNameRange     '0.3.0',
+573 silly addNameRange     '0.4.0',
+573 silly addNameRange     '0.4.1',
+573 silly addNameRange     '0.5.0',
+573 silly addNameRange     '0.6.0',
+573 silly addNameRange     '0.6.1',
+573 silly addNameRange     '0.7.0',
+573 silly addNameRange     '0.7.1',
+573 silly addNameRange     '0.7.2',
+573 silly addNameRange     '0.8.0',
+573 silly addNameRange     '0.8.1',
+573 silly addNameRange     '0.9.0',
+573 silly addNameRange     '0.9.1',
+573 silly addNameRange     '0.9.2',
+573 silly addNameRange     '0.9.3',
+573 silly addNameRange     '0.9.4' ] ]
+574 verbose addNamed grunt-contrib-imagemin@0.9.4
+575 silly addNamed semver.valid 0.9.4
+576 silly addNamed semver.validRange 0.9.4
+577 silly addNameRange number 2 { name: 'grunt-autoprefixer',
+577 silly addNameRange   range: '>=2.0.0 <3.0.0',
+577 silly addNameRange   hasData: true }
+578 silly addNameRange versions [ 'grunt-autoprefixer',
+578 silly addNameRange   [ '0.1.0',
+578 silly addNameRange     '0.1.20130424',
+578 silly addNameRange     '0.1.20130516',
+578 silly addNameRange     '0.1.20130615',
+578 silly addNameRange     '0.2.0',
+578 silly addNameRange     '0.2.20130718',
+578 silly addNameRange     '0.2.20130806',
+578 silly addNameRange     '0.3.0',
+578 silly addNameRange     '0.3.1',
+578 silly addNameRange     '0.4.0',
+578 silly addNameRange     '0.4.1',
+578 silly addNameRange     '0.4.2',
+578 silly addNameRange     '0.5.0',
+578 silly addNameRange     '0.6.0',
+578 silly addNameRange     '0.6.1',
+578 silly addNameRange     '0.6.2',
+578 silly addNameRange     '0.6.3',
+578 silly addNameRange     '0.6.4',
+578 silly addNameRange     '0.6.5',
+578 silly addNameRange     '0.7.0',
+578 silly addNameRange     '0.7.1',
+578 silly addNameRange     '0.7.2',
+578 silly addNameRange     '0.7.3',
+578 silly addNameRange     '0.7.4',
+578 silly addNameRange     '0.7.5',
+578 silly addNameRange     '0.7.6',
+578 silly addNameRange     '0.8.0',
+578 silly addNameRange     '0.8.1',
+578 silly addNameRange     '0.8.2',
+578 silly addNameRange     '1.0.0',
+578 silly addNameRange     '1.0.1',
+578 silly addNameRange     '2.0.0',
+578 silly addNameRange     '2.1.0',
+578 silly addNameRange     '2.2.0' ] ]
+579 verbose addNamed grunt-autoprefixer@2.2.0
+580 silly addNamed semver.valid 2.2.0
+581 silly addNamed semver.validRange 2.2.0
+582 silly addNameRange number 2 { name: 'grunt-svgmin', range: '>=2.0.0 <3.0.0', hasData: true }
+583 silly addNameRange versions [ 'grunt-svgmin',
+583 silly addNameRange   [ '0.1.0',
+583 silly addNameRange     '0.2.0',
+583 silly addNameRange     '0.2.1',
+583 silly addNameRange     '0.3.0',
+583 silly addNameRange     '0.3.1',
+583 silly addNameRange     '0.4.0',
+583 silly addNameRange     '1.0.0',
+583 silly addNameRange     '2.0.0',
+583 silly addNameRange     '2.0.1' ] ]
+584 verbose addNamed grunt-svgmin@2.0.1
+585 silly addNamed semver.valid 2.0.1
+586 silly addNamed semver.validRange 2.0.1
+587 silly addNameRange number 2 { name: 'grunt-google-cdn',
+587 silly addNameRange   range: '>=0.4.3 <0.5.0',
+587 silly addNameRange   hasData: true }
+588 silly addNameRange versions [ 'grunt-google-cdn',
+588 silly addNameRange   [ '0.0.1',
+588 silly addNameRange     '0.1.0',
+588 silly addNameRange     '0.1.1',
+588 silly addNameRange     '0.1.2',
+588 silly addNameRange     '0.1.3',
+588 silly addNameRange     '0.1.4',
+588 silly addNameRange     '0.2.0',
+588 silly addNameRange     '0.2.1',
+588 silly addNameRange     '0.2.2',
+588 silly addNameRange     '0.3.0',
+588 silly addNameRange     '0.4.0',
+588 silly addNameRange     '0.4.1',
+588 silly addNameRange     '0.4.2',
+588 silly addNameRange     '0.4.3' ] ]
+589 verbose addNamed grunt-google-cdn@0.4.3
+590 silly addNamed semver.valid 0.4.3
+591 silly addNamed semver.validRange 0.4.3
+592 silly addNameRange number 2 { name: 'jshint-stylish',
+592 silly addNameRange   range: '>=1.0.0 <2.0.0',
+592 silly addNameRange   hasData: true }
+593 silly addNameRange versions [ 'jshint-stylish',
+593 silly addNameRange   [ '0.1.0',
+593 silly addNameRange     '0.1.1',
+593 silly addNameRange     '0.1.2',
+593 silly addNameRange     '0.1.3',
+593 silly addNameRange     '0.1.4',
+593 silly addNameRange     '0.1.5',
+593 silly addNameRange     '0.2.0',
+593 silly addNameRange     '0.3.0',
+593 silly addNameRange     '0.4.0',
+593 silly addNameRange     '1.0.0',
+593 silly addNameRange     '1.0.1' ] ]
+594 verbose addNamed jshint-stylish@1.0.1
+595 silly addNamed semver.valid 1.0.1
+596 silly addNamed semver.validRange 1.0.1
+597 silly addNameRange number 2 { name: 'grunt-usemin', range: '>=2.6.2 <3.0.0', hasData: true }
+598 silly addNameRange versions [ 'grunt-usemin',
+598 silly addNameRange   [ '0.1.0',
+598 silly addNameRange     '0.1.1',
+598 silly addNameRange     '0.1.2',
+598 silly addNameRange     '0.1.5',
+598 silly addNameRange     '0.1.6',
+598 silly addNameRange     '0.1.7',
+598 silly addNameRange     '0.1.8',
+598 silly addNameRange     '0.1.9',
+598 silly addNameRange     '0.1.4',
+598 silly addNameRange     '0.1.10',
+598 silly addNameRange     '0.1.11',
+598 silly addNameRange     '0.1.12',
+598 silly addNameRange     '0.1.13',
+598 silly addNameRange     '2.0.0',
+598 silly addNameRange     '2.0.1',
+598 silly addNameRange     '2.0.2',
+598 silly addNameRange     '2.1.0',
+598 silly addNameRange     '2.1.1',
+598 silly addNameRange     '2.2.0',
+598 silly addNameRange     '2.3.0',
+598 silly addNameRange     '2.4.0',
+598 silly addNameRange     '2.5.0',
+598 silly addNameRange     '2.5.1',
+598 silly addNameRange     '2.6.0',
+598 silly addNameRange     '2.6.1',
+598 silly addNameRange     '2.6.2',
+598 silly addNameRange     '3.0.0' ] ]
+599 verbose addNamed grunt-usemin@2.6.2
+600 silly addNamed semver.valid 2.6.2
+601 silly addNamed semver.validRange 2.6.2
+602 silly addNameRange number 2 { name: 'grunt-contrib-concat',
+602 silly addNameRange   range: '>=0.5.0 <0.6.0',
+602 silly addNameRange   hasData: true }
+603 silly addNameRange versions [ 'grunt-contrib-concat',
+603 silly addNameRange   [ '0.1.0',
+603 silly addNameRange     '0.1.1',
+603 silly addNameRange     '0.1.2',
+603 silly addNameRange     '0.1.3',
+603 silly addNameRange     '0.2.0',
+603 silly addNameRange     '0.3.0',
+603 silly addNameRange     '0.4.0',
+603 silly addNameRange     '0.5.0',
+603 silly addNameRange     '0.5.1',
+603 silly addNameRange     '0.1.2-rc5',
+603 silly addNameRange     '0.1.2-rc6' ] ]
+604 verbose addNamed grunt-contrib-concat@0.5.1
+605 silly addNamed semver.valid 0.5.1
+606 silly addNamed semver.validRange 0.5.1
+607 silly addNameRange number 2 { name: 'grunt-contrib-clean',
+607 silly addNameRange   range: '>=0.6.0 <0.7.0',
+607 silly addNameRange   hasData: true }
+608 silly addNameRange versions [ 'grunt-contrib-clean',
+608 silly addNameRange   [ '0.1.0',
+608 silly addNameRange     '0.2.0',
+608 silly addNameRange     '0.3.0',
+608 silly addNameRange     '0.3.1',
+608 silly addNameRange     '0.3.2',
+608 silly addNameRange     '0.4.0',
+608 silly addNameRange     '0.4.1',
+608 silly addNameRange     '0.5.0',
+608 silly addNameRange     '0.6.0',
+608 silly addNameRange     '0.4.0-a',
+608 silly addNameRange     '0.4.0-rc5',
+608 silly addNameRange     '0.4.0-rc6' ] ]
+609 verbose addNamed grunt-contrib-clean@0.6.0
+610 silly addNamed semver.valid 0.6.0
+611 silly addNamed semver.validRange 0.6.0
+612 silly addNameRange number 2 { name: 'grunt-concurrent',
+612 silly addNameRange   range: '>=1.0.0 <2.0.0',
+612 silly addNameRange   hasData: true }
+613 silly addNameRange versions [ 'grunt-concurrent',
+613 silly addNameRange   [ '0.1.0',
+613 silly addNameRange     '0.1.1',
+613 silly addNameRange     '0.2.0',
+613 silly addNameRange     '0.3.0',
+613 silly addNameRange     '0.3.1',
+613 silly addNameRange     '0.4.0',
+613 silly addNameRange     '0.4.1',
+613 silly addNameRange     '0.4.2',
+613 silly addNameRange     '0.4.3',
+613 silly addNameRange     '0.5.0',
+613 silly addNameRange     '1.0.0' ] ]
+614 verbose addNamed grunt-concurrent@1.0.0
+615 silly addNamed semver.valid 1.0.0
+616 silly addNamed semver.validRange 1.0.0
+617 silly addNameRange number 2 { name: 'grunt-contrib-connect',
+617 silly addNameRange   range: '>=0.9.0 <0.10.0',
+617 silly addNameRange   hasData: true }
+618 silly addNameRange versions [ 'grunt-contrib-connect',
+618 silly addNameRange   [ '0.1.0',
+618 silly addNameRange     '0.1.1',
+618 silly addNameRange     '0.1.2',
+618 silly addNameRange     '0.2.0',
+618 silly addNameRange     '0.3.0',
+618 silly addNameRange     '0.4.0',
+618 silly addNameRange     '0.4.1',
+618 silly addNameRange     '0.4.2',
+618 silly addNameRange     '0.5.0',
+618 silly addNameRange     '0.6.0',
+618 silly addNameRange     '0.7.0',
+618 silly addNameRange     '0.7.1',
+618 silly addNameRange     '0.8.0',
+618 silly addNameRange     '0.9.0',
+618 silly addNameRange     '0.1.1-rc6' ] ]
+619 verbose addNamed grunt-contrib-connect@0.9.0
+620 silly addNamed semver.valid 0.9.0
+621 silly addNamed semver.validRange 0.9.0
+622 http 304 https://registry.npmjs.org/time-grunt
+623 silly get cb [ 304,
+623 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+623 silly get     server: 'Apache',
+623 silly get     via: '1.1 varnish',
+623 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+623 silly get     'cache-control': 'max-age=60',
+623 silly get     etag: '"AMQR7O463HHARGXKQ75HB7SNC"',
+623 silly get     age: '0',
+623 silly get     'x-served-by': 'cache-fra1236-FRA',
+623 silly get     'x-cache': 'HIT',
+623 silly get     'x-cache-hits': '1',
+623 silly get     'x-timer': 'S1427455472.526900,VS0,VE105',
+623 silly get     vary: 'Accept',
+623 silly get     'content-length': '0',
+623 silly get     'keep-alive': 'timeout=10, max=50',
+623 silly get     connection: 'Keep-Alive' } ]
+624 verbose etag https://registry.npmjs.org/time-grunt from cache
+625 verbose get saving time-grunt to /Users/adrienbrussolo/.npm/registry.npmjs.org/time-grunt/.cache.json
+626 silly cache afterAdd grunt-contrib-uglify@0.6.0
+627 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-uglify/0.6.0/package/package.json not in flight; writing
+628 silly cache afterAdd grunt-contrib-imagemin@0.9.4
+629 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-imagemin/0.9.4/package/package.json not in flight; writing
+630 silly cache afterAdd grunt-newer@0.8.0
+631 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-newer/0.8.0/package/package.json not in flight; writing
+632 silly cache afterAdd grunt-contrib-jshint@0.10.0
+633 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-jshint/0.10.0/package/package.json not in flight; writing
+634 silly cache afterAdd grunt-wiredep@2.0.0
+635 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-wiredep/2.0.0/package/package.json not in flight; writing
+636 silly cache afterAdd grunt-contrib-watch@0.6.1
+637 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-watch/0.6.1/package/package.json not in flight; writing
+638 silly cache afterAdd grunt-contrib-cssmin@0.10.0
+639 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-cssmin/0.10.0/package/package.json not in flight; writing
+640 silly cache afterAdd load-grunt-tasks@1.0.0
+641 verbose afterAdd /Users/adrienbrussolo/.npm/load-grunt-tasks/1.0.0/package/package.json not in flight; writing
+642 silly cache afterAdd grunt-contrib-copy@0.7.0
+643 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-copy/0.7.0/package/package.json not in flight; writing
+644 silly cache afterAdd grunt-svgmin@2.0.1
+645 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-svgmin/2.0.1/package/package.json not in flight; writing
+646 silly cache afterAdd jshint-stylish@1.0.1
+647 verbose afterAdd /Users/adrienbrussolo/.npm/jshint-stylish/1.0.1/package/package.json not in flight; writing
+648 silly cache afterAdd grunt-autoprefixer@2.2.0
+649 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-autoprefixer/2.2.0/package/package.json not in flight; writing
+650 silly cache afterAdd grunt-google-cdn@0.4.3
+651 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-google-cdn/0.4.3/package/package.json not in flight; writing
+652 silly cache afterAdd grunt-usemin@2.6.2
+653 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-usemin/2.6.2/package/package.json not in flight; writing
+654 http 304 https://registry.npmjs.org/grunt-bower-requirejs
+655 silly get cb [ 304,
+655 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+655 silly get     server: 'Apache',
+655 silly get     via: '1.1 varnish',
+655 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+655 silly get     'cache-control': 'max-age=60',
+655 silly get     etag: '"DFNO2ZK5M0RJEP8DQAOG2BY1D"',
+655 silly get     age: '0',
+655 silly get     'x-served-by': 'cache-fra1230-FRA',
+655 silly get     'x-cache': 'HIT',
+655 silly get     'x-cache-hits': '1',
+655 silly get     'x-timer': 'S1427455472.513370,VS0,VE187',
+655 silly get     vary: 'Accept',
+655 silly get     'content-length': '0',
+655 silly get     'keep-alive': 'timeout=10, max=50',
+655 silly get     connection: 'Keep-Alive' } ]
+656 verbose etag https://registry.npmjs.org/grunt-bower-requirejs from cache
+657 verbose get saving grunt-bower-requirejs to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-bower-requirejs/.cache.json
+658 silly cache afterAdd grunt-contrib-clean@0.6.0
+659 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-clean/0.6.0/package/package.json not in flight; writing
+660 silly cache afterAdd grunt-contrib-connect@0.9.0
+661 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-connect/0.9.0/package/package.json not in flight; writing
+662 silly cache afterAdd grunt-concurrent@1.0.0
+663 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-concurrent/1.0.0/package/package.json not in flight; writing
+664 silly cache afterAdd grunt-contrib-concat@0.5.1
+665 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-concat/0.5.1/package/package.json not in flight; writing
+666 http 304 https://registry.npmjs.org/grunt-contrib-compass
+667 silly get cb [ 304,
+667 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+667 silly get     server: 'Apache',
+667 silly get     via: '1.1 varnish',
+667 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+667 silly get     'cache-control': 'max-age=60',
+667 silly get     etag: '"409R1GZ6QVD3GC7Q7ZKNJ4CRD"',
+667 silly get     age: '0',
+667 silly get     'x-served-by': 'cache-fra1241-FRA',
+667 silly get     'x-cache': 'HIT',
+667 silly get     'x-cache-hits': '1',
+667 silly get     'x-timer': 'S1427455472.527335,VS0,VE177',
+667 silly get     vary: 'Accept',
+667 silly get     'content-length': '0',
+667 silly get     'keep-alive': 'timeout=10, max=50',
+667 silly get     connection: 'Keep-Alive' } ]
+668 verbose etag https://registry.npmjs.org/grunt-contrib-compass from cache
+669 verbose get saving grunt-contrib-compass to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-compass/.cache.json
+670 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-imagemin/0.9.4/package/package.json written
+671 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-newer/0.8.0/package/package.json written
+672 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-wiredep/2.0.0/package/package.json written
+673 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-jshint/0.10.0/package/package.json written
+674 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-uglify/0.6.0/package/package.json written
+675 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-watch/0.6.1/package/package.json written
+676 verbose afterAdd /Users/adrienbrussolo/.npm/load-grunt-tasks/1.0.0/package/package.json written
+677 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-cssmin/0.10.0/package/package.json written
+678 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-copy/0.7.0/package/package.json written
+679 silly addNameRange number 2 { name: 'time-grunt', range: '>=1.0.0 <2.0.0', hasData: true }
+680 silly addNameRange versions [ 'time-grunt',
+680 silly addNameRange   [ '0.1.0',
+680 silly addNameRange     '0.1.1',
+680 silly addNameRange     '0.1.2',
+680 silly addNameRange     '0.2.0',
+680 silly addNameRange     '0.2.1',
+680 silly addNameRange     '0.2.2',
+680 silly addNameRange     '0.2.3',
+680 silly addNameRange     '0.2.4',
+680 silly addNameRange     '0.2.5',
+680 silly addNameRange     '0.2.6',
+680 silly addNameRange     '0.2.7',
+680 silly addNameRange     '0.2.8',
+680 silly addNameRange     '0.2.9',
+680 silly addNameRange     '0.2.10',
+680 silly addNameRange     '0.3.1',
+680 silly addNameRange     '0.3.2',
+680 silly addNameRange     '0.4.0',
+680 silly addNameRange     '1.0.0',
+680 silly addNameRange     '1.1.0' ] ]
+681 verbose addNamed time-grunt@1.1.0
+682 silly addNamed semver.valid 1.1.0
+683 silly addNamed semver.validRange 1.1.0
+684 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-svgmin/2.0.1/package/package.json written
+685 verbose afterAdd /Users/adrienbrussolo/.npm/jshint-stylish/1.0.1/package/package.json written
+686 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-autoprefixer/2.2.0/package/package.json written
+687 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-google-cdn/0.4.3/package/package.json written
+688 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-usemin/2.6.2/package/package.json written
+689 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-connect/0.9.0/package/package.json written
+690 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-concat/0.5.1/package/package.json written
+691 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-concurrent/1.0.0/package/package.json written
+692 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-clean/0.6.0/package/package.json written
+693 silly addNameRange number 2 { name: 'grunt-bower-requirejs',
+693 silly addNameRange   range: '>=2.0.0 <3.0.0',
+693 silly addNameRange   hasData: true }
+694 silly addNameRange versions [ 'grunt-bower-requirejs',
+694 silly addNameRange   [ '0.4.0',
+694 silly addNameRange     '0.4.1',
+694 silly addNameRange     '0.4.2',
+694 silly addNameRange     '0.4.3',
+694 silly addNameRange     '0.4.4',
+694 silly addNameRange     '0.5.0',
+694 silly addNameRange     '0.6.0',
+694 silly addNameRange     '0.7.0',
+694 silly addNameRange     '0.7.1',
+694 silly addNameRange     '0.8.0',
+694 silly addNameRange     '0.8.1',
+694 silly addNameRange     '0.8.3',
+694 silly addNameRange     '0.8.4',
+694 silly addNameRange     '0.9.0',
+694 silly addNameRange     '0.9.1',
+694 silly addNameRange     '0.9.2',
+694 silly addNameRange     '0.10.0',
+694 silly addNameRange     '0.11.0',
+694 silly addNameRange     '1.0.0',
+694 silly addNameRange     '1.1.0',
+694 silly addNameRange     '1.1.1',
+694 silly addNameRange     '2.0.0' ] ]
+695 verbose addNamed grunt-bower-requirejs@2.0.0
+696 silly addNamed semver.valid 2.0.0
+697 silly addNamed semver.validRange 2.0.0
+698 silly cache afterAdd time-grunt@1.1.0
+699 verbose afterAdd /Users/adrienbrussolo/.npm/time-grunt/1.1.0/package/package.json not in flight; writing
+700 silly addNameRange number 2 { name: 'grunt-contrib-compass',
+700 silly addNameRange   range: '>=1.0.0 <2.0.0',
+700 silly addNameRange   hasData: true }
+701 silly addNameRange versions [ 'grunt-contrib-compass',
+701 silly addNameRange   [ '0.1.0',
+701 silly addNameRange     '0.1.1',
+701 silly addNameRange     '0.1.2',
+701 silly addNameRange     '0.1.3',
+701 silly addNameRange     '0.2.0',
+701 silly addNameRange     '0.3.0',
+701 silly addNameRange     '0.4.0',
+701 silly addNameRange     '0.4.1',
+701 silly addNameRange     '0.5.0',
+701 silly addNameRange     '0.6.0',
+701 silly addNameRange     '0.7.0',
+701 silly addNameRange     '0.1.1-rc7',
+701 silly addNameRange     '0.1.1-rc8',
+701 silly addNameRange     '0.7.1',
+701 silly addNameRange     '0.7.2',
+701 silly addNameRange     '0.8.0',
+701 silly addNameRange     '0.9.0',
+701 silly addNameRange     '0.9.1',
+701 silly addNameRange     '1.0.0',
+701 silly addNameRange     '1.0.1' ] ]
+702 verbose addNamed grunt-contrib-compass@1.0.1
+703 silly addNamed semver.valid 1.0.1
+704 silly addNamed semver.validRange 1.0.1
+705 verbose afterAdd /Users/adrienbrussolo/.npm/time-grunt/1.1.0/package/package.json written
+706 silly cache afterAdd grunt-bower-requirejs@2.0.0
+707 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-bower-requirejs/2.0.0/package/package.json not in flight; writing
+708 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-bower-requirejs/2.0.0/package/package.json written
+709 silly cache afterAdd grunt-contrib-compass@1.0.1
+710 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-compass/1.0.1/package/package.json not in flight; writing
+711 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-compass/1.0.1/package/package.json written
+712 http 304 https://registry.npmjs.org/grunt-text-replace
+713 silly get cb [ 304,
+713 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+713 silly get     server: 'Apache',
+713 silly get     via: '1.1 varnish',
+713 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+713 silly get     'cache-control': 'max-age=60',
+713 silly get     etag: '"4R9VGSH4IC4ITI8VFKZXJJHV5"',
+713 silly get     age: '0',
+713 silly get     'x-served-by': 'cache-fra1231-FRA',
+713 silly get     'x-cache': 'HIT',
+713 silly get     'x-cache-hits': '1',
+713 silly get     'x-timer': 'S1427455472.510642,VS0,VE274',
+713 silly get     vary: 'Accept',
+713 silly get     'content-length': '0',
+713 silly get     'keep-alive': 'timeout=10, max=50',
+713 silly get     connection: 'Keep-Alive' } ]
+714 verbose etag https://registry.npmjs.org/grunt-text-replace from cache
+715 verbose get saving grunt-text-replace to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-text-replace/.cache.json
+716 silly addNameRange number 2 { name: 'grunt-text-replace',
+716 silly addNameRange   range: '>=0.4.0 <0.5.0',
+716 silly addNameRange   hasData: true }
+717 silly addNameRange versions [ 'grunt-text-replace',
+717 silly addNameRange   [ '0.1.0',
+717 silly addNameRange     '0.1.1',
+717 silly addNameRange     '0.1.2',
+717 silly addNameRange     '0.1.3',
+717 silly addNameRange     '0.1.4',
+717 silly addNameRange     '0.1.5',
+717 silly addNameRange     '0.1.6',
+717 silly addNameRange     '0.1.7',
+717 silly addNameRange     '0.1.8',
+717 silly addNameRange     '0.2.0',
+717 silly addNameRange     '0.2.1',
+717 silly addNameRange     '0.2.2',
+717 silly addNameRange     '0.2.3',
+717 silly addNameRange     '0.2.4',
+717 silly addNameRange     '0.2.5',
+717 silly addNameRange     '0.2.6',
+717 silly addNameRange     '0.2.7',
+717 silly addNameRange     '0.2.8',
+717 silly addNameRange     '0.2.9',
+717 silly addNameRange     '0.2.10',
+717 silly addNameRange     '0.3.0',
+717 silly addNameRange     '0.3.1',
+717 silly addNameRange     '0.3.2',
+717 silly addNameRange     '0.3.3',
+717 silly addNameRange     '0.3.4',
+717 silly addNameRange     '0.3.5',
+717 silly addNameRange     '0.3.6',
+717 silly addNameRange     '0.3.7',
+717 silly addNameRange     '0.3.8',
+717 silly addNameRange     '0.3.9',
+717 silly addNameRange     '0.3.10',
+717 silly addNameRange     '0.3.11',
+717 silly addNameRange     '0.3.12',
+717 silly addNameRange     '0.4.0' ] ]
+718 verbose addNamed grunt-text-replace@0.4.0
+719 silly addNamed semver.valid 0.4.0
+720 silly addNamed semver.validRange 0.4.0
+721 silly cache afterAdd grunt-text-replace@0.4.0
+722 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-text-replace/0.4.0/package/package.json not in flight; writing
+723 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-text-replace/0.4.0/package/package.json written
+724 http 304 https://registry.npmjs.org/grunt-ng-annotate
+725 silly get cb [ 304,
+725 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+725 silly get     server: 'Apache',
+725 silly get     via: '1.1 varnish',
+725 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+725 silly get     'cache-control': 'max-age=60',
+725 silly get     etag: '"DLEVMR3FJ44QKTFDP9KUJM5K6"',
+725 silly get     age: '0',
+725 silly get     'x-served-by': 'cache-fra1243-FRA',
+725 silly get     'x-cache': 'HIT',
+725 silly get     'x-cache-hits': '1',
+725 silly get     'x-timer': 'S1427455472.491650,VS0,VE392',
+725 silly get     vary: 'Accept',
+725 silly get     'content-length': '0',
+725 silly get     'keep-alive': 'timeout=10, max=50',
+725 silly get     connection: 'Keep-Alive' } ]
+726 verbose etag https://registry.npmjs.org/grunt-ng-annotate from cache
+727 verbose get saving grunt-ng-annotate to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-ng-annotate/.cache.json
+728 silly addNameRange number 2 { name: 'grunt-ng-annotate',
+728 silly addNameRange   range: '>=0.8.0 <0.9.0',
+728 silly addNameRange   hasData: true }
+729 silly addNameRange versions [ 'grunt-ng-annotate',
+729 silly addNameRange   [ '0.0.1',
+729 silly addNameRange     '0.0.2',
+729 silly addNameRange     '0.0.4',
+729 silly addNameRange     '0.0.5',
+729 silly addNameRange     '0.0.6',
+729 silly addNameRange     '0.0.7',
+729 silly addNameRange     '0.0.8',
+729 silly addNameRange     '0.1.0',
+729 silly addNameRange     '0.2.0',
+729 silly addNameRange     '0.2.1',
+729 silly addNameRange     '0.2.2',
+729 silly addNameRange     '0.2.3',
+729 silly addNameRange     '0.3.0',
+729 silly addNameRange     '0.3.1',
+729 silly addNameRange     '0.3.2',
+729 silly addNameRange     '0.4.0',
+729 silly addNameRange     '0.5.0',
+729 silly addNameRange     '0.6.0',
+729 silly addNameRange     '0.7.0',
+729 silly addNameRange     '0.8.0',
+729 silly addNameRange     '0.9.0',
+729 silly addNameRange     '0.9.1',
+729 silly addNameRange     '0.9.2',
+729 silly addNameRange     '0.10.0' ] ]
+730 verbose addNamed grunt-ng-annotate@0.8.0
+731 silly addNamed semver.valid 0.8.0
+732 silly addNamed semver.validRange 0.8.0
+733 silly cache afterAdd grunt-ng-annotate@0.8.0
+734 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-ng-annotate/0.8.0/package/package.json not in flight; writing
+735 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-ng-annotate/0.8.0/package/package.json written
+736 http 304 https://registry.npmjs.org/grunt-filerev
+737 silly get cb [ 304,
+737 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+737 silly get     server: 'Apache',
+737 silly get     via: '1.1 varnish',
+737 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+737 silly get     'cache-control': 'max-age=60',
+737 silly get     etag: '"71D3VQLU4IB01KAZIUC1YWPPS"',
+737 silly get     age: '0',
+737 silly get     'x-served-by': 'cache-fra1226-FRA',
+737 silly get     'x-cache': 'HIT',
+737 silly get     'x-cache-hits': '1',
+737 silly get     'x-timer': 'S1427455472.493049,VS0,VE427',
+737 silly get     vary: 'Accept',
+737 silly get     'content-length': '0',
+737 silly get     'keep-alive': 'timeout=10, max=50',
+737 silly get     connection: 'Keep-Alive' } ]
+738 verbose etag https://registry.npmjs.org/grunt-filerev from cache
+739 verbose get saving grunt-filerev to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-filerev/.cache.json
+740 silly addNameRange number 2 { name: 'grunt-filerev', range: '>=0.2.2 <0.3.0', hasData: true }
+741 silly addNameRange versions [ 'grunt-filerev',
+741 silly addNameRange   [ '0.1.0',
+741 silly addNameRange     '0.1.1',
+741 silly addNameRange     '0.1.2',
+741 silly addNameRange     '0.2.0',
+741 silly addNameRange     '0.2.1',
+741 silly addNameRange     '1.1.0',
+741 silly addNameRange     '2.0.0',
+741 silly addNameRange     '2.1.0',
+741 silly addNameRange     '2.1.1',
+741 silly addNameRange     '2.1.2',
+741 silly addNameRange     '2.2.0' ] ]
+742 http 304 https://registry.npmjs.org/grunt-requirejs
+743 silly get cb [ 304,
+743 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+743 silly get     server: 'Apache',
+743 silly get     via: '1.1 varnish',
+743 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:32 GMT',
+743 silly get     'cache-control': 'max-age=60',
+743 silly get     etag: '"5I4PN4R4L0HGFCQ6IWDS57BN"',
+743 silly get     age: '0',
+743 silly get     'x-served-by': 'cache-fra1248-FRA',
+743 silly get     'x-cache': 'HIT',
+743 silly get     'x-cache-hits': '1',
+743 silly get     'x-timer': 'S1427455472.509940,VS0,VE426',
+743 silly get     vary: 'Accept',
+743 silly get     'content-length': '0',
+743 silly get     'keep-alive': 'timeout=10, max=50',
+743 silly get     connection: 'Keep-Alive' } ]
+744 verbose etag https://registry.npmjs.org/grunt-requirejs from cache
+745 verbose get saving grunt-requirejs to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-requirejs/.cache.json
+746 silly addNameRange number 2 { name: 'grunt-requirejs',
+746 silly addNameRange   range: '>=0.4.2 <0.5.0',
+746 silly addNameRange   hasData: true }
+747 silly addNameRange versions [ 'grunt-requirejs',
+747 silly addNameRange   [ '0.1.0',
+747 silly addNameRange     '0.2.0',
+747 silly addNameRange     '0.2.1',
+747 silly addNameRange     '0.2.2',
+747 silly addNameRange     '0.2.5',
+747 silly addNameRange     '0.2.6',
+747 silly addNameRange     '0.2.7',
+747 silly addNameRange     '0.2.8',
+747 silly addNameRange     '0.2.9',
+747 silly addNameRange     '0.2.10',
+747 silly addNameRange     '0.2.11',
+747 silly addNameRange     '0.2.12',
+747 silly addNameRange     '0.2.13',
+747 silly addNameRange     '0.2.14',
+747 silly addNameRange     '0.3.0',
+747 silly addNameRange     '0.3.1',
+747 silly addNameRange     '0.3.2',
+747 silly addNameRange     '0.3.3',
+747 silly addNameRange     '0.3.4',
+747 silly addNameRange     '0.3.5',
+747 silly addNameRange     '0.4.0',
+747 silly addNameRange     '0.4.1',
+747 silly addNameRange     '0.4.2' ] ]
+748 verbose addNamed grunt-requirejs@0.4.2
+749 silly addNamed semver.valid 0.4.2
+750 silly addNamed semver.validRange 0.4.2
+751 silly cache afterAdd grunt-requirejs@0.4.2
+752 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-requirejs/0.4.2/package/package.json not in flight; writing
+753 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-requirejs/0.4.2/package/package.json written
+754 http 304 https://registry.npmjs.org/grunt-contrib-htmlmin
+755 silly get cb [ 304,
+755 silly get   { date: 'Fri, 27 Mar 2015 11:24:32 GMT',
+755 silly get     server: 'Apache',
+755 silly get     via: '1.1 varnish',
+755 silly get     'last-modified': 'Fri, 27 Mar 2015 11:24:33 GMT',
+755 silly get     'cache-control': 'max-age=60',
+755 silly get     etag: '"A3LP8RBVPN3E7TFQAEHYV6QAK"',
+755 silly get     age: '0',
+755 silly get     'x-served-by': 'cache-fra1237-FRA',
+755 silly get     'x-cache': 'HIT',
+755 silly get     'x-cache-hits': '1',
+755 silly get     'x-timer': 'S1427455472.504106,VS0,VE722',
+755 silly get     vary: 'Accept',
+755 silly get     'content-length': '0',
+755 silly get     'keep-alive': 'timeout=10, max=50',
+755 silly get     connection: 'Keep-Alive' } ]
+756 verbose etag https://registry.npmjs.org/grunt-contrib-htmlmin from cache
+757 verbose get saving grunt-contrib-htmlmin to /Users/adrienbrussolo/.npm/registry.npmjs.org/grunt-contrib-htmlmin/.cache.json
+758 silly addNameRange number 2 { name: 'grunt-contrib-htmlmin',
+758 silly addNameRange   range: '>=0.3.0 <0.4.0',
+758 silly addNameRange   hasData: true }
+759 silly addNameRange versions [ 'grunt-contrib-htmlmin',
+759 silly addNameRange   [ '0.1.0',
+759 silly addNameRange     '0.1.1',
+759 silly addNameRange     '0.1.2',
+759 silly addNameRange     '0.1.3',
+759 silly addNameRange     '0.1.1-rc7',
+759 silly addNameRange     '0.2.0',
+759 silly addNameRange     '0.3.0',
+759 silly addNameRange     '0.4.0' ] ]
+760 verbose addNamed grunt-contrib-htmlmin@0.3.0
+761 silly addNamed semver.valid 0.3.0
+762 silly addNamed semver.validRange 0.3.0
+763 silly cache afterAdd grunt-contrib-htmlmin@0.3.0
+764 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-htmlmin/0.3.0/package/package.json not in flight; writing
+765 verbose afterAdd /Users/adrienbrussolo/.npm/grunt-contrib-htmlmin/0.3.0/package/package.json written
+766 verbose stack Error: No compatible version found: grunt-filerev@'>=0.2.2 <0.3.0'
+766 verbose stack Valid install targets:
+766 verbose stack ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","1.1.0","2.0.0","2.1.0","2.1.1","2.1.2","2.2.0"]
+766 verbose stack
+766 verbose stack     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:259:12)
+766 verbose stack     at next (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:238:17)
+766 verbose stack     at setData (/usr/local/lib/node_modules/npm/lib/cache/add-named.js:215:5)
+766 verbose stack     at RES (/usr/local/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+766 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+766 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+766 verbose stack     at FSReqWrap.oncomplete (fs.js:99:15)
+767 verbose cwd /Users/adrienbrussolo/Documents/DEV2/Tests Unitaires/JS/assertJavaScript/yeoman
+768 error Darwin 14.1.0
+769 error argv "node" "/usr/local/bin/npm" "install"
+770 error node v0.12.1
+771 error npm  v2.5.1
+772 error code ETARGET
+773 error notarget No compatible version found: grunt-filerev@'>=0.2.2 <0.3.0'
+773 error notarget Valid install targets:
+773 error notarget ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","1.1.0","2.0.0","2.1.0","2.1.1","2.1.2","2.2.0"]
+773 error notarget
+773 error notarget This is most likely not a problem with npm itself.
+773 error notarget In most cases you or one of your dependencies are requesting
+773 error notarget a package version that doesn't exist.
+774 verbose exit [ 1, true ]
