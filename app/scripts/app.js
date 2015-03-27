@@ -1,38 +1,29 @@
-/*jshint unused: vars */
-define(['angular', 'controllers/main', 'controllers/about']/*deps*/, function (angular, MainCtrl, AboutCtrl)/*invoke*/ {
-  'use strict';
+(function (define){
+  /*jshint unused: vars */
+  define([
+    'angular',
+    'route',
+    'controllers/main'
+  ], function (angular, route){
+    'use strict';
 
-  /**
-   * @ngdoc overview
-   * @name yeomanApp
-   * @description
-   * # yeomanApp
-   *
-   * Main module of the application.
-   */
-  return angular
-    .module('yeomanApp', ['yeomanApp.controllers.MainCtrl',
-'yeomanApp.controllers.AboutCtrl',
-/*angJSDeps*/
-    'ngCookies',
-    'ngResource',
-    'ngSanitize',
-    'ngRoute',
-    'ngAnimate',
-    'ngTouch'
-  ])
-    .config(function ($routeProvider) {
-      $routeProvider
-        .when('/', {
-          templateUrl: 'views/main.html',
-          controller: 'MainCtrl'
-        })
-        .when('/about', {
-          templateUrl: 'views/about.html',
-          controller: 'AboutCtrl'
-        })
-        .otherwise({
-          redirectTo: '/'
-        });
-    });
-});
+    /**
+     * @ngdoc overview
+     * @name yeomanShowcaseApp
+     * @description
+     * # yeomanShowcaseApp
+     *
+     * Main module of the application.
+     */
+    return angular
+      .module('yeomanShowcaseApp', [
+        'ngCookies',
+        'ngResource',
+        'ngSanitize',
+        'ngRoute',
+        'ngAnimate',
+        'ngTouch'
+      ])
+      .config(route);
+  });
+})(this.define);
